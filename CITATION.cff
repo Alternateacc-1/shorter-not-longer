@@ -1,10 +1,22 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the paper below."
-title: "shorter-not-longer: code and results for the paper on residual entropy of BCH fuzzy commitments"
+title: "shorter-not-longer"
 type: software
 license: MIT
 repository-code: "https://github.com/Alternateacc-1/shorter-not-longer"
-version: "1.0.0"
+version: "1.1.0"
+date-released: "2026-10-12"
+abstract: >-
+  Code and results for the ITI 2026 paper "Shorter, Not Longer? Residual Entropy of BCH
+  Fuzzy Commitments over Deep Face Embeddings". Recomputes every number in the paper from
+  the deep-funneled LFW images: exact BCH parity, decode failure, false-accept rates,
+  effective degrees of freedom, bootstrap closure, and the robustness analyses.
+keywords:
+  - fuzzy commitment
+  - biometric template protection
+  - BCH codes
+  - face recognition
+  - LFW
 authors:
   - family-names: "Mogare"
     given-names: "Tejas"
