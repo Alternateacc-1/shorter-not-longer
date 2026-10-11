@@ -1,6 +1,6 @@
 """Compare the manifests in results/ with the committed versions, value by value.
 
-A full run rewrites the four manifest files in place. This script reads each one
+A full run rewrites the five manifest files in place. This script reads each one
 next to its committed version (git show HEAD:<path>) and reports every quantity
 whose value changed. Numbers count as equal when they agree to 9 significant
 digits, which absorbs last-digit floating-point noise between platforms; the
@@ -17,7 +17,8 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 MANIFESTS = ["results/pipeline/manifest.csv", "results/alignment/manifest.csv",
-             "results/supplementary/manifest.csv", "results/codes_lookalike/manifest.csv"]
+             "results/supplementary/manifest.csv", "results/codes_lookalike/manifest.csv",
+             "results/robustness/manifest.csv"]
 
 
 def rows(text):

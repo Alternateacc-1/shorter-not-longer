@@ -30,6 +30,7 @@ flowchart TD
     M1 --> A2[analyses/<br/>label errors, table values, limitations] --> M3[(results/supplementary/manifest.csv)]
     M1 --> A3[analyses/<br/>qr_codes, lookalike_attack] --> M4[(results/codes_lookalike/manifest.csv)]
     P --> A4[analyses/<br/>centering_check] --> M5[(results/centering/centering_check.json)]
+    A4 --> A5[analyses/<br/>robustness] --> M6[(results/robustness/manifest.csv)]
 ```
 
 ## Repository layout
@@ -38,7 +39,8 @@ flowchart TD
 fuzzycommit/     library: embeddings, bit selection, exact BCH parity, false accepts, N_eff, bootstrap
 pipeline/        the main run, step1_embed.py ... step8_manifest.py
 analyses/        extra analyses in the paper: landmark alignment, label errors, QR codes,
-                 lookalike attack, centering check
+                 lookalike attack, centering check, and the robustness of the
+                 single-draw results to other seeds and draws
 checks/          two scripts that recompute results and compare them with checks/expected/,
                  and compare_manifests.py for comparing a rerun with the committed results
 results/         the published results: one manifest.csv per part, plus the step outputs
@@ -95,7 +97,7 @@ From the repository root, with the environment active:
 
 \*on a 12-thread laptop (Intel i5-12450H, Windows 11). Step 1 refuses to start while an embedding file exists, so to start over delete `results/pipeline/embeddings_cache.npz` first. Run step 7 before step 8, or the four check-script rows are missing from the manifest.
 
-Then the analyses, in this order (about 30 minutes, most of it the face re-alignment):
+Then the analyses, in this order (about 75 minutes, most of it the face re-alignment and the robustness runs):
 
 ```
 python -m analyses.realign_faces
@@ -112,11 +114,17 @@ python -m analyses.lookalike_attack
 python -m analyses.build_manifest_codes           # -> results/codes_lookalike/manifest.csv
 
 python -m analyses.centering_check                # -> results/centering/centering_check.json
+python -m analyses.robustness                     # -> results/robustness/manifest.csv (about 45 min)
 ```
+
+The last one repeats the results that rest on one random choice (the bootstrap seed, the
+projection matrix, which five images are enrolled, the 800 outside images, the random arm,
+the noise-only control and the lookalike split) with other seeds and draws. The paper's own
+seed or draw always comes first, and the script stops if it does not reproduce.
 
 ## Finding a number
 
-Every number in the paper is a row in one of the four `manifest.csv` files, or is computed from rows there. Each row has the quantity, its value and units, the script and function that produced it, the seeds and the commit. To find one, search for its name, for example `closure_pct n=15 subject` or `FAR_ratio_full_pair n=64`.
+Every number in the paper is a row in one of the five `manifest.csv` files, or is computed from rows there. Each row has the quantity, its value and units, the script and function that produced it, the seeds and the commit. To find one, search for its name, for example `closure_pct n=15 subject` or `FAR_ratio_full_pair n=64`.
 
 A few descriptive counts come straight from the embeddings and have no row: the median (5) and maximum (525) probes per subject, the 1,715 probes left after capping at 10 per subject, and the single probe of the worst-rejected subject. The 95% interval [9.1, 10.3]×10⁻⁴ at n = 24 is in `results/pipeline/step2_sweep.json`.
 
@@ -140,6 +148,7 @@ It compares every value with the committed one and ignores the commit column.
 | held-out splits, 400 each | 20260903 and 20261001 |
 | lookalike split / its binomial null | 3042 / 3043 |
 | centering check, 800 outside images | 7 |
+| robustness: bootstrap / projection / enrollment / outside draws | see `analyses/robustness.py` |
 
 ## Running on another operating system
 
