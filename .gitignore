@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+
+# local setup: model files and the path to your LFW copy
+models/
+paths.conf
+
+# large or intermediate outputs (embeddings, logs, part files)
+*.npz
+*.log
+results/pipeline/dev/
+results/checks/
+results/**/part_*.csv
+results/alignment/*.json
+results/supplementary/*.json
+results/codes_lookalike/*.json
