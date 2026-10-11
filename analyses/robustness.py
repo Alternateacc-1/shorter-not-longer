@@ -261,6 +261,20 @@ def manifest_rows(R, st):
             "bits [min,max]", "evaluate", sd)
         add(f"robust {name} runs with an eligible length above 15", sum(bool(x["eligible_above_15"]) for x in X),
             "count", "apply_rule", sd)
+    # the same counts without the reference run of each experiment (seed 43, draw 0), which is the
+    # paper's own configuration and would otherwise be counted twice
+    redraws = P[1:] + E[1:]
+    rs = "projection seeds 101,202,303,404,1-15 and enrollment draws 1-19"
+    add("robust redraws count", len(redraws), "count", "projection[1:] + enrollment[1:]", rs)
+    add("robust redraws rule picks n=15", sum(x["pick"] == 15 for x in redraws), "count", "apply_rule", rs)
+    add("robust redraws rule picks n=14", sum(x["pick"] == 14 for x in redraws), "count", "apply_rule", rs)
+    add("robust redraws rule picks another length", sum(x["pick"] not in (14, 15, None) for x in redraws),
+        "count", "apply_rule", rs)
+    add("robust redraws rule picks none", sum(x["pick"] is None for x in redraws), "count", "apply_rule", rs)
+    add("robust redraws n=15 positive under every weighting", sum(min(x["n15_residual"].values()) > 0 for x in redraws),
+        "count", "evaluate", rs)
+    add("robust redraws n=15 min-over-weighting residual range",
+        rng([min(x["n15_residual"].values()) for x in redraws]), "bits [min,max]", "evaluate", rs)
     both = P + E
     add("robust projection+enrollment runs", len(both), "count", "projection + enrollment", "both")
     add("robust projection+enrollment rule picks n=15", sum(x["pick"] == 15 for x in both), "count", "apply_rule", "both")
@@ -290,6 +304,8 @@ def manifest_rows(R, st):
     A = R["random_arm"]; asd = "seed_base 2042 (paper) and 51000-69000"
     for n in (16, 24, 32):
         add(f"robust random arm gap n={n} range", rng([a["rows"][n]["gap"] for a in A]), "bits [min,max]", "random_arm", asd)
+        add(f"robust random arm gap n={n} paper draw is the smallest",
+            A[0]["rows"][n]["gap"] == min(a["rows"][n]["gap"] for a in A), "bool", "random_arm", asd)
     add("robust random arm gap n=24 median", float(np.median([a["rows"][24]["gap"] for a in A])), "bits", "random_arm", asd)
     N = R["noise"]
     add("robust noise control ratio range", rng([x["ratio"] for x in N]), "x [min,max]", "noise_control",
