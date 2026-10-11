@@ -4,6 +4,14 @@ title: "shorter-not-longer"
 type: software
 license: MIT
 repository-code: "https://github.com/Alternateacc-1/shorter-not-longer"
+doi: "10.5281/zenodo.23304675"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23304675"
+    description: "Version 1.1.0, the code and results used in the paper"
+  - type: doi
+    value: "10.5281/zenodo.23304674"
+    description: "All versions (resolves to the latest)"
 version: "1.1.0"
 date-released: "2026-10-12"
 abstract: >-
