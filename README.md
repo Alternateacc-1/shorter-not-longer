@@ -85,17 +85,17 @@ From the repository root, with the environment active:
 | # | command | what it does | time* |
 |---|---|---|---|
 | 1 | `python -m pipeline.step1_embed` | checks the inputs, embeds the 5,425 images | 9 min |
-| 2 | `python -m pipeline.step2_sweep` | the length sweep: Table 1, Table 2, Fig. 2 | 17 min |
-| 3 | `python -m pipeline.step3_lfw_benchmark` | LFW 6,000-pair accuracy of the embedding path | 26 min |
-| 4 | `python -m pipeline.step4_robustness` | other codes, seeds, held-out splits, targets | 11 min |
-| 5 | `python -m pipeline.step5_bound_seeds` | distribution-free bound for every seed | 1 min |
-| 6 | `python -m pipeline.step6_alignment` | landmark alignment instead of the centre crop | 50 min |
-| 7 | `python -m pipeline.step7_checks` | runs the two check scripts (219 and 290 checks) | 35 min |
+| 2 | `python -m pipeline.step2_sweep` | the length sweep: Table 1, Table 2, Fig. 2 | 23 min |
+| 3 | `python -m pipeline.step3_lfw_benchmark` | LFW 6,000-pair accuracy of the embedding path | 12 min |
+| 4 | `python -m pipeline.step4_robustness` | other codes, seeds, held-out splits, targets | 4 min |
+| 5 | `python -m pipeline.step5_bound_seeds` | distribution-free bound for every seed | seconds |
+| 6 | `python -m pipeline.step6_alignment` | landmark alignment instead of the centre crop | 32 min |
+| 7 | `python -m pipeline.step7_checks` | runs the two check scripts (219 and 290 checks) | 12 min |
 | 8 | `python -m pipeline.step8_manifest` | writes `results/pipeline/manifest.csv` | seconds |
 
-\*on a 12-thread laptop. Step 1 refuses to start while an embedding file exists, so to start over delete `results/pipeline/embeddings_cache.npz` first. Run step 7 before step 8, or the four check-script rows are missing from the manifest.
+\*on a 12-thread laptop (Intel i5-12450H, Windows 11). Step 1 refuses to start while an embedding file exists, so to start over delete `results/pipeline/embeddings_cache.npz` first. Run step 7 before step 8, or the four check-script rows are missing from the manifest.
 
-Then the analyses, in this order (about 1.5 hours, most of it the face re-alignment):
+Then the analyses, in this order (about 30 minutes, most of it the face re-alignment):
 
 ```
 python -m analyses.realign_faces
