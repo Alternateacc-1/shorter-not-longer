@@ -1,0 +1,6004 @@
+{
+ "git": {
+  "commit": "32ee479e8c8bb747cc6d3355882ff43fead65aed",
+  "branch": "main"
+ },
+ "bootstrap": [
+  {
+   "seed": "paper",
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.5,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.5,
+     "capped": 94.19999999999999,
+     "subject": 99.6
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 99.9
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 96.1
+    },
+    "16": {
+     "probe": 97.8,
+     "capped": 91.60000000000001,
+     "subject": 48.0
+    }
+   }
+  },
+  {
+   "seed": 1,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.6,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.8,
+     "capped": 93.10000000000001,
+     "subject": 99.4
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.8
+    },
+    "16": {
+     "probe": 97.89999999999999,
+     "capped": 91.5,
+     "subject": 45.4
+    }
+   }
+  },
+  {
+   "seed": 2,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.6,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.5,
+     "capped": 94.39999999999999,
+     "subject": 99.1
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.6
+    },
+    "16": {
+     "probe": 96.8,
+     "capped": 90.10000000000001,
+     "subject": 44.0
+    }
+   }
+  },
+  {
+   "seed": 3,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.7,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 98.9,
+     "capped": 94.69999999999999,
+     "subject": 99.6
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.6
+    },
+    "16": {
+     "probe": 96.89999999999999,
+     "capped": 92.0,
+     "subject": 47.8
+    }
+   }
+  },
+  {
+   "seed": 4,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.2,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 99.0,
+     "capped": 93.4,
+     "subject": 99.0
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 96.39999999999999
+    },
+    "16": {
+     "probe": 96.6,
+     "capped": 91.8,
+     "subject": 44.800000000000004
+    }
+   }
+  },
+  {
+   "seed": 5,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.2,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.0,
+     "capped": 93.8,
+     "subject": 99.3
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 99.9,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 99.9,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.39999999999999
+    },
+    "16": {
+     "probe": 96.8,
+     "capped": 91.9,
+     "subject": 44.1
+    }
+   }
+  },
+  {
+   "seed": 6,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.2,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.9,
+     "capped": 93.4,
+     "subject": 99.5
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 96.3
+    },
+    "16": {
+     "probe": 97.8,
+     "capped": 92.2,
+     "subject": 46.5
+    }
+   }
+  },
+  {
+   "seed": 7,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.1,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 99.2,
+     "capped": 93.89999999999999,
+     "subject": 99.6
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 99.9
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.1
+    },
+    "16": {
+     "probe": 96.6,
+     "capped": 92.30000000000001,
+     "subject": 46.2
+    }
+   }
+  },
+  {
+   "seed": 8,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.2,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.2,
+     "capped": 94.0,
+     "subject": 99.6
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.3
+    },
+    "16": {
+     "probe": 98.2,
+     "capped": 92.5,
+     "subject": 47.199999999999996
+    }
+   }
+  },
+  {
+   "seed": 9,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.2,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.4,
+     "capped": 92.4,
+     "subject": 99.6
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 99.9
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.3
+    },
+    "16": {
+     "probe": 96.7,
+     "capped": 92.0,
+     "subject": 47.9
+    }
+   }
+  },
+  {
+   "seed": 10,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.0,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.0,
+     "capped": 93.7,
+     "subject": 99.5
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 96.0
+    },
+    "16": {
+     "probe": 97.3,
+     "capped": 91.4,
+     "subject": 44.0
+    }
+   }
+  },
+  {
+   "seed": 11,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.3,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.1,
+     "capped": 94.3,
+     "subject": 99.9
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.5
+    },
+    "16": {
+     "probe": 97.39999999999999,
+     "capped": 92.30000000000001,
+     "subject": 46.5
+    }
+   }
+  },
+  {
+   "seed": 12,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.5,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.5,
+     "capped": 92.30000000000001,
+     "subject": 99.6
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.89999999999999
+    },
+    "16": {
+     "probe": 97.8,
+     "capped": 91.7,
+     "subject": 46.0
+    }
+   }
+  },
+  {
+   "seed": 13,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.3,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 99.1,
+     "capped": 94.5,
+     "subject": 99.8
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 99.9,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.8
+    },
+    "16": {
+     "probe": 97.1,
+     "capped": 92.10000000000001,
+     "subject": 44.1
+    }
+   }
+  },
+  {
+   "seed": 14,
+   "pick": 15,
+   "eligible": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.5,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.0,
+     "capped": 95.19999999999999,
+     "subject": 99.6
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 96.3
+    },
+    "16": {
+     "probe": 97.3,
+     "capped": 90.3,
+     "subject": 45.0
+    }
+   }
+  },
+  {
+   "seed": 15,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.6,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.3,
+     "capped": 93.60000000000001,
+     "subject": 99.8
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.6
+    },
+    "16": {
+     "probe": 97.5,
+     "capped": 91.3,
+     "subject": 47.8
+    }
+   }
+  },
+  {
+   "seed": 16,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.5,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.4,
+     "capped": 92.60000000000001,
+     "subject": 99.4
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 99.9,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 96.1
+    },
+    "16": {
+     "probe": 97.39999999999999,
+     "capped": 91.0,
+     "subject": 46.1
+    }
+   }
+  },
+  {
+   "seed": 17,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.5,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.3,
+     "capped": 94.1,
+     "subject": 99.2
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 99.9
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 96.39999999999999
+    },
+    "16": {
+     "probe": 97.2,
+     "capped": 92.60000000000001,
+     "subject": 46.0
+    }
+   }
+  },
+  {
+   "seed": 18,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.1,
+     "subject": 99.8
+    },
+    "9": {
+     "probe": 98.6,
+     "capped": 92.4,
+     "subject": 99.4
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.8
+    },
+    "16": {
+     "probe": 97.5,
+     "capped": 93.10000000000001,
+     "subject": 47.9
+    }
+   }
+  },
+  {
+   "seed": 19,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.3,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.9,
+     "capped": 94.69999999999999,
+     "subject": 99.8
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.5
+    },
+    "16": {
+     "probe": 98.3,
+     "capped": 92.60000000000001,
+     "subject": 49.1
+    }
+   }
+  },
+  {
+   "seed": 20,
+   "pick": 15,
+   "eligible": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.3,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.5,
+     "capped": 95.3,
+     "subject": 99.7
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.1
+    },
+    "16": {
+     "probe": 97.6,
+     "capped": 92.60000000000001,
+     "subject": 47.599999999999994
+    }
+   }
+  },
+  {
+   "seed": 21,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 99.9,
+     "capped": 99.2,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 98.6,
+     "capped": 93.8,
+     "subject": 99.7
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.89999999999999
+    },
+    "16": {
+     "probe": 96.5,
+     "capped": 91.9,
+     "subject": 43.9
+    }
+   }
+  },
+  {
+   "seed": 22,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.2,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 99.6,
+     "capped": 93.0,
+     "subject": 99.5
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 96.3
+    },
+    "16": {
+     "probe": 98.0,
+     "capped": 90.8,
+     "subject": 44.9
+    }
+   }
+  },
+  {
+   "seed": 23,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.8,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.0,
+     "capped": 94.6,
+     "subject": 99.3
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.0
+    },
+    "16": {
+     "probe": 96.8,
+     "capped": 91.7,
+     "subject": 44.6
+    }
+   }
+  },
+  {
+   "seed": 24,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.3,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.5,
+     "capped": 93.4,
+     "subject": 99.9
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 96.2
+    },
+    "16": {
+     "probe": 97.39999999999999,
+     "capped": 91.2,
+     "subject": 45.6
+    }
+   }
+  },
+  {
+   "seed": 25,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.5,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.6,
+     "capped": 92.9,
+     "subject": 99.5
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.8
+    },
+    "16": {
+     "probe": 96.7,
+     "capped": 92.10000000000001,
+     "subject": 43.5
+    }
+   }
+  },
+  {
+   "seed": 26,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.4,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 98.7,
+     "capped": 94.8,
+     "subject": 99.6
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.89999999999999
+    },
+    "16": {
+     "probe": 97.3,
+     "capped": 91.8,
+     "subject": 47.099999999999994
+    }
+   }
+  },
+  {
+   "seed": 27,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.6,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 99.0,
+     "capped": 94.0,
+     "subject": 99.4
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.89999999999999
+    },
+    "16": {
+     "probe": 97.2,
+     "capped": 91.9,
+     "subject": 46.9
+    }
+   }
+  },
+  {
+   "seed": 28,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.5,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 99.2,
+     "capped": 93.8,
+     "subject": 99.8
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.89999999999999
+    },
+    "16": {
+     "probe": 97.5,
+     "capped": 92.60000000000001,
+     "subject": 46.400000000000006
+    }
+   }
+  },
+  {
+   "seed": 29,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.2,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.0,
+     "capped": 93.2,
+     "subject": 99.8
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.19999999999999
+    },
+    "16": {
+     "probe": 96.89999999999999,
+     "capped": 91.9,
+     "subject": 47.599999999999994
+    }
+   }
+  },
+  {
+   "seed": 30,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.2,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 99.4,
+     "capped": 94.3,
+     "subject": 99.7
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.1
+    },
+    "16": {
+     "probe": 96.5,
+     "capped": 91.4,
+     "subject": 43.3
+    }
+   }
+  },
+  {
+   "seed": 31,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.2,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.1,
+     "capped": 93.4,
+     "subject": 99.5
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.89999999999999
+    },
+    "16": {
+     "probe": 97.2,
+     "capped": 93.2,
+     "subject": 47.599999999999994
+    }
+   }
+  },
+  {
+   "seed": 32,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 98.7,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.1,
+     "capped": 92.9,
+     "subject": 99.6
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.7
+    },
+    "16": {
+     "probe": 97.0,
+     "capped": 91.2,
+     "subject": 45.6
+    }
+   }
+  },
+  {
+   "seed": 33,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.5,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.6,
+     "capped": 94.5,
+     "subject": 99.5
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 96.5
+    },
+    "16": {
+     "probe": 97.6,
+     "capped": 91.7,
+     "subject": 46.1
+    }
+   }
+  },
+  {
+   "seed": 34,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.3,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.1,
+     "capped": 93.5,
+     "subject": 99.7
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.39999999999999
+    },
+    "16": {
+     "probe": 96.8,
+     "capped": 92.9,
+     "subject": 47.3
+    }
+   }
+  },
+  {
+   "seed": 35,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.4,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.1,
+     "capped": 93.7,
+     "subject": 99.4
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.1
+    },
+    "16": {
+     "probe": 98.1,
+     "capped": 91.0,
+     "subject": 43.6
+    }
+   }
+  },
+  {
+   "seed": 36,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.3,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 98.9,
+     "capped": 94.19999999999999,
+     "subject": 99.5
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.6
+    },
+    "16": {
+     "probe": 96.1,
+     "capped": 91.2,
+     "subject": 47.599999999999994
+    }
+   }
+  },
+  {
+   "seed": 37,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 98.8,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 99.0,
+     "capped": 94.0,
+     "subject": 99.4
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.3
+    },
+    "16": {
+     "probe": 97.6,
+     "capped": 91.7,
+     "subject": 46.1
+    }
+   }
+  },
+  {
+   "seed": 38,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 98.3,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.8,
+     "capped": 92.9,
+     "subject": 99.4
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 99.9,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.8
+    },
+    "16": {
+     "probe": 97.2,
+     "capped": 91.10000000000001,
+     "subject": 47.199999999999996
+    }
+   }
+  },
+  {
+   "seed": 39,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 98.9,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 99.3,
+     "capped": 94.0,
+     "subject": 99.4
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 99.9
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 96.2
+    },
+    "16": {
+     "probe": 97.1,
+     "capped": 91.9,
+     "subject": 45.7
+    }
+   }
+  },
+  {
+   "seed": 40,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.4,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.6,
+     "capped": 93.10000000000001,
+     "subject": 99.3
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.5
+    },
+    "16": {
+     "probe": 97.2,
+     "capped": 90.3,
+     "subject": 44.9
+    }
+   }
+  },
+  {
+   "seed": 41,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.7,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.0,
+     "capped": 94.5,
+     "subject": 99.9
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.1
+    },
+    "16": {
+     "probe": 97.39999999999999,
+     "capped": 91.4,
+     "subject": 44.2
+    }
+   }
+  },
+  {
+   "seed": 42,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 98.9,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.7,
+     "capped": 92.80000000000001,
+     "subject": 100.0
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.6
+    },
+    "16": {
+     "probe": 97.39999999999999,
+     "capped": 92.2,
+     "subject": 46.1
+    }
+   }
+  },
+  {
+   "seed": 43,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.6,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.1,
+     "capped": 93.89999999999999,
+     "subject": 99.5
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 93.8
+    },
+    "16": {
+     "probe": 97.39999999999999,
+     "capped": 92.4,
+     "subject": 44.7
+    }
+   }
+  },
+  {
+   "seed": 44,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.4,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.7,
+     "capped": 93.4,
+     "subject": 99.6
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.1
+    },
+    "16": {
+     "probe": 97.8,
+     "capped": 93.0,
+     "subject": 45.7
+    }
+   }
+  },
+  {
+   "seed": 45,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.2,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.5,
+     "capped": 93.10000000000001,
+     "subject": 99.4
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.3
+    },
+    "16": {
+     "probe": 96.8,
+     "capped": 90.9,
+     "subject": 44.1
+    }
+   }
+  },
+  {
+   "seed": 46,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.5,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.3,
+     "capped": 93.8,
+     "subject": 99.9
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 96.39999999999999
+    },
+    "16": {
+     "probe": 98.0,
+     "capped": 92.7,
+     "subject": 47.0
+    }
+   }
+  },
+  {
+   "seed": 47,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.3,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 99.0,
+     "capped": 93.7,
+     "subject": 99.7
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.89999999999999
+    },
+    "16": {
+     "probe": 98.3,
+     "capped": 92.4,
+     "subject": 48.6
+    }
+   }
+  },
+  {
+   "seed": 48,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.6,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.8,
+     "capped": 93.5,
+     "subject": 99.4
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.1
+    },
+    "16": {
+     "probe": 97.2,
+     "capped": 93.2,
+     "subject": 43.8
+    }
+   }
+  },
+  {
+   "seed": 49,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.6,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.1,
+     "capped": 93.2,
+     "subject": 99.3
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.1
+    },
+    "16": {
+     "probe": 98.1,
+     "capped": 93.0,
+     "subject": 47.0
+    }
+   }
+  },
+  {
+   "seed": 50,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.4,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.7,
+     "capped": 94.0,
+     "subject": 99.4
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.3
+    },
+    "16": {
+     "probe": 97.1,
+     "capped": 91.60000000000001,
+     "subject": 45.4
+    }
+   }
+  },
+  {
+   "seed": 51,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.4,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.7,
+     "capped": 94.5,
+     "subject": 99.7
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.6
+    },
+    "16": {
+     "probe": 97.6,
+     "capped": 91.5,
+     "subject": 47.5
+    }
+   }
+  },
+  {
+   "seed": 52,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.7,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.1,
+     "capped": 94.3,
+     "subject": 99.8
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.19999999999999
+    },
+    "16": {
+     "probe": 98.0,
+     "capped": 92.9,
+     "subject": 46.0
+    }
+   }
+  },
+  {
+   "seed": 53,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.5,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 99.1,
+     "capped": 94.69999999999999,
+     "subject": 99.5
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 99.9
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.39999999999999
+    },
+    "16": {
+     "probe": 96.6,
+     "capped": 92.60000000000001,
+     "subject": 45.6
+    }
+   }
+  },
+  {
+   "seed": 54,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.3,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.7,
+     "capped": 92.5,
+     "subject": 99.7
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.5
+    },
+    "16": {
+     "probe": 97.8,
+     "capped": 92.9,
+     "subject": 42.199999999999996
+    }
+   }
+  },
+  {
+   "seed": 55,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.2,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 98.6,
+     "capped": 94.3,
+     "subject": 99.7
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.19999999999999
+    },
+    "16": {
+     "probe": 97.0,
+     "capped": 92.80000000000001,
+     "subject": 47.8
+    }
+   }
+  },
+  {
+   "seed": 56,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.5,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 98.8,
+     "capped": 92.7,
+     "subject": 99.6
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 99.9,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.6
+    },
+    "16": {
+     "probe": 97.0,
+     "capped": 93.0,
+     "subject": 45.7
+    }
+   }
+  },
+  {
+   "seed": 57,
+   "pick": 14,
+   "eligible": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.2,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 99.1,
+     "capped": 95.19999999999999,
+     "subject": 99.5
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 99.8,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 94.3
+    },
+    "16": {
+     "probe": 97.5,
+     "capped": 92.9,
+     "subject": 44.5
+    }
+   }
+  },
+  {
+   "seed": 58,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.7,
+     "subject": 99.9
+    },
+    "9": {
+     "probe": 98.7,
+     "capped": 94.6,
+     "subject": 99.5
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.8
+    },
+    "16": {
+     "probe": 98.3,
+     "capped": 93.10000000000001,
+     "subject": 48.1
+    }
+   }
+  },
+  {
+   "seed": 59,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "closure": {
+    "8": {
+     "probe": 100.0,
+     "capped": 99.8,
+     "subject": 100.0
+    },
+    "9": {
+     "probe": 98.9,
+     "capped": 94.0,
+     "subject": 99.8
+    },
+    "10": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "11": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "12": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "13": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "14": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "15": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 95.5
+    },
+    "16": {
+     "probe": 98.4,
+     "capped": 92.80000000000001,
+     "subject": 48.1
+    }
+   }
+  }
+ ],
+ "projection": [
+  {
+   "seed": 43,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.1243027521110545,
+    "capped": 4.1243027521110545,
+    "subject": 4.1243027521110545
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 96.1
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.937572729894395
+  },
+  {
+   "seed": 101,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.026472872981724,
+    "capped": 4.026472872981724,
+    "subject": 4.026472872981724
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 98.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.646722035424837
+  },
+  {
+   "seed": 202,
+   "pick": 14,
+   "eligible": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.066917631243967,
+    "capped": 4.066917631243967,
+    "subject": 2.0669176312439674
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 3
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.8602389866820097
+  },
+  {
+   "seed": 303,
+   "pick": 20,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    20
+   ],
+   "n15_residual": {
+    "probe": 4.169345620890157,
+    "capped": 4.169345620890157,
+    "subject": 4.169345620890157
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [
+    20
+   ],
+   "n24_probe_residual": 2.960411884215926
+  },
+  {
+   "seed": 404,
+   "pick": 15,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 3.9397341306000744,
+    "capped": 3.9397341306000744,
+    "subject": 3.9397341306000744
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.5271150821097415
+  },
+  {
+   "seed": 1,
+   "pick": 15,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.031192569398295,
+    "capped": 4.031192569398295,
+    "subject": 4.031192569398295
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 99.7,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": -2.0872402442916886
+  },
+  {
+   "seed": 2,
+   "pick": 15,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 3.9734809821473966,
+    "capped": 3.9734809821473966,
+    "subject": 3.9734809821473966
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.7069250603932566
+  },
+  {
+   "seed": 3,
+   "pick": 20,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    20
+   ],
+   "n15_residual": {
+    "probe": 4.153033776755358,
+    "capped": 4.153033776755358,
+    "subject": 4.153033776755358
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 99.9
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [
+    20
+   ],
+   "n24_probe_residual": 2.8655902370142528
+  },
+  {
+   "seed": 4,
+   "pick": 15,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.021838638408532,
+    "capped": 4.021838638408532,
+    "subject": 4.021838638408532
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.771071497000925
+  },
+  {
+   "seed": 5,
+   "pick": 17,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "n15_residual": {
+    "probe": 3.952904249123872,
+    "capped": 3.952904249123872,
+    "subject": 3.952904249123872
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [
+    16,
+    17
+   ],
+   "n24_probe_residual": 2.7828746837420226
+  },
+  {
+   "seed": 6,
+   "pick": 13,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.048632519857035,
+    "capped": 4.048632519857035,
+    "subject": 2.048632519857035
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 3
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.7979486668189786
+  },
+  {
+   "seed": 7,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.021882353803324,
+    "capped": 4.021882353803324,
+    "subject": 4.021882353803324
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": -2.443552980907196
+  },
+  {
+   "seed": 8,
+   "pick": null,
+   "eligible": [],
+   "n15_residual": {
+    "probe": 4.042184797962237,
+    "capped": 4.042184797962237,
+    "subject": 4.042184797962237
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 89.3
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.6899217320437714
+  },
+  {
+   "seed": 9,
+   "pick": 15,
+   "eligible": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.1629439493944815,
+    "capped": 4.1629439493944815,
+    "subject": 4.1629439493944815
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 3.0453922879924384
+  },
+  {
+   "seed": 10,
+   "pick": 15,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.255712093867116,
+    "capped": 4.255712093867116,
+    "subject": 4.255712093867116
+   },
+   "n15_closure": {
+    "probe": 99.9,
+    "capped": 99.9,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 3.211034773049974
+  },
+  {
+   "seed": 11,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.247685701495557,
+    "capped": 4.247685701495557,
+    "subject": 2.2476857014955574
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 98.9
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 3
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 3.13737719556417
+  },
+  {
+   "seed": 12,
+   "pick": 21,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    21
+   ],
+   "n15_residual": {
+    "probe": 4.070967802518382,
+    "capped": 4.070967802518382,
+    "subject": 4.070967802518382
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [
+    21
+   ],
+   "n24_probe_residual": 2.7465563691469477
+  },
+  {
+   "seed": 13,
+   "pick": 15,
+   "eligible": [
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.113650288955904,
+    "capped": 4.113650288955904,
+    "subject": 4.113650288955904
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 99.6,
+    "subject": 95.89999999999999
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.986334830809138
+  },
+  {
+   "seed": 14,
+   "pick": 15,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.166836472069159,
+    "capped": 4.166836472069159,
+    "subject": 4.166836472069159
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.9474458049238166
+  },
+  {
+   "seed": 15,
+   "pick": 15,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.157850024653033,
+    "capped": 4.157850024653033,
+    "subject": 4.157850024653033
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.824192257363599
+  }
+ ],
+ "enrollment": [
+  {
+   "draw": 0,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.1243027521110545,
+    "capped": 4.1243027521110545,
+    "subject": 4.1243027521110545
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 96.1
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.937572729894395
+  },
+  {
+   "draw": 1,
+   "pick": 15,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.171577744045882,
+    "capped": 4.171577744045882,
+    "subject": 4.171577744045882
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 99.8,
+    "subject": 97.39999999999999
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.9502613230712136
+  },
+  {
+   "draw": 2,
+   "pick": 15,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.1417693624493825,
+    "capped": 4.1417693624493825,
+    "subject": 4.1417693624493825
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 99.6,
+    "subject": 99.4
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.77622181554246
+  },
+  {
+   "draw": 3,
+   "pick": 15,
+   "eligible": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.052020423813772,
+    "capped": 4.052020423813772,
+    "subject": 4.052020423813772
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 99.5,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.765248885172042
+  },
+  {
+   "draw": 4,
+   "pick": 14,
+   "eligible": [
+    13,
+    14
+   ],
+   "n15_residual": {
+    "probe": 4.061018434809178,
+    "capped": 4.061018434809178,
+    "subject": 2.061018434809178
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 84.7
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 3
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.76925757446962
+  },
+  {
+   "draw": 5,
+   "pick": 16,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "n15_residual": {
+    "probe": 4.072925621088409,
+    "capped": 4.072925621088409,
+    "subject": 4.072925621088409
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [
+    16
+   ],
+   "n24_probe_residual": 2.790909880734727
+  },
+  {
+   "draw": 6,
+   "pick": 14,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "n15_residual": {
+    "probe": 4.032112896664227,
+    "capped": 4.032112896664227,
+    "subject": 4.032112896664227
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 99.9,
+    "subject": 83.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.841603478005137
+  },
+  {
+   "draw": 7,
+   "pick": 15,
+   "eligible": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.238628074750988,
+    "capped": 4.238628074750988,
+    "subject": 4.238628074750988
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.9729923760710975
+  },
+  {
+   "draw": 8,
+   "pick": 14,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.1493353556538715,
+    "capped": 2.1493353556538715,
+    "subject": 4.1493353556538715
+   },
+   "n15_closure": {
+    "probe": 99.9,
+    "capped": 95.8,
+    "subject": 96.7
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 3,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.9155591484983674
+  },
+  {
+   "draw": 9,
+   "pick": 15,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.022098538342076,
+    "capped": 4.022098538342076,
+    "subject": 4.022098538342076
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 97.39999999999999
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.7841858976041998
+  },
+  {
+   "draw": 10,
+   "pick": 15,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.023725802464828,
+    "capped": 4.023725802464828,
+    "subject": 4.023725802464828
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 99.6,
+    "subject": 99.6
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": -2.2174656623244573
+  },
+  {
+   "draw": 11,
+   "pick": 15,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.1767580968979985,
+    "capped": 4.1767580968979985,
+    "subject": 4.1767580968979985
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 100.0,
+    "subject": 99.8
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.944744054531501
+  },
+  {
+   "draw": 12,
+   "pick": 14,
+   "eligible": [
+    13,
+    14
+   ],
+   "n15_residual": {
+    "probe": 4.175391813358324,
+    "capped": 4.175391813358324,
+    "subject": 4.175391813358324
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 96.5,
+    "subject": 89.4
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.8756325467053827
+  },
+  {
+   "draw": 13,
+   "pick": 14,
+   "eligible": [
+    13,
+    14
+   ],
+   "n15_residual": {
+    "probe": 4.171984287055029,
+    "capped": 2.1719842870550288,
+    "subject": 2.1719842870550288
+   },
+   "n15_closure": {
+    "probe": 99.9,
+    "capped": 99.1,
+    "subject": 94.1
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 3,
+    "subject": 3
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.7595509279053907
+  },
+  {
+   "draw": 14,
+   "pick": 14,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.039481376564428,
+    "capped": 2.039481376564428,
+    "subject": 4.039481376564428
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 99.6,
+    "subject": 100.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 3,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.8445219427189308
+  },
+  {
+   "draw": 15,
+   "pick": 14,
+   "eligible": [
+    10,
+    13,
+    14
+   ],
+   "n15_residual": {
+    "probe": 4.044160382415541,
+    "capped": 2.0441603824155408,
+    "subject": 4.044160382415541
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 92.30000000000001,
+    "subject": 91.5
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 3,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.861634708047422
+  },
+  {
+   "draw": 16,
+   "pick": 14,
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "n15_residual": {
+    "probe": 4.095476036781362,
+    "capped": 4.095476036781362,
+    "subject": 4.095476036781362
+   },
+   "n15_closure": {
+    "probe": 99.9,
+    "capped": 96.1,
+    "subject": 67.0
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.8245115206682314
+  },
+  {
+   "draw": 17,
+   "pick": null,
+   "eligible": [],
+   "n15_residual": {
+    "probe": 4.169437584359962,
+    "capped": 2.1694375843599616,
+    "subject": 2.1694375843599616
+   },
+   "n15_closure": {
+    "probe": 99.8,
+    "capped": 89.3,
+    "subject": 70.39999999999999
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 3,
+    "subject": 3
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.925884309611913
+  },
+  {
+   "draw": 18,
+   "pick": null,
+   "eligible": [],
+   "n15_residual": {
+    "probe": 4.1478349250981985,
+    "capped": 4.1478349250981985,
+    "subject": 2.1478349250981985
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 99.8,
+    "subject": 66.2
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 3
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.7944523542850632
+  },
+  {
+   "draw": 19,
+   "pick": 15,
+   "eligible": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "n15_residual": {
+    "probe": 4.0815375282701964,
+    "capped": 4.0815375282701964,
+    "subject": 4.0815375282701964
+   },
+   "n15_closure": {
+    "probe": 100.0,
+    "capped": 98.9,
+    "subject": 98.7
+   },
+   "n15_t": {
+    "probe": 2,
+    "capped": 2,
+    "subject": 2
+   },
+   "eligible_above_15": [],
+   "n24_probe_residual": 2.944878192562509
+  }
+ ],
+ "random_arm": [
+  {
+   "seed_base": 2042,
+   "rows": {
+    "16": {
+     "neff_B": 15.307836849965904,
+     "gap": 2.5156115838650592
+    },
+    "24": {
+     "neff_B": 22.73294764828064,
+     "gap": 4.795374918386244
+    },
+    "32": {
+     "neff_B": 29.745713097975365,
+     "gap": 7.07423682142182
+    }
+   }
+  },
+  {
+   "seed_base": 51000,
+   "rows": {
+    "16": {
+     "neff_B": 15.509703491589804,
+     "gap": 2.717478225488959
+    },
+    "24": {
+     "neff_B": 22.900546158966332,
+     "gap": 4.962973429071937
+    },
+    "32": {
+     "neff_B": 30.17888124414578,
+     "gap": 7.507404967592237
+    }
+   }
+  },
+  {
+   "seed_base": 52000,
+   "rows": {
+    "16": {
+     "neff_B": 15.493538583126643,
+     "gap": 2.7013133170257984
+    },
+    "24": {
+     "neff_B": 22.963352229010113,
+     "gap": 5.025779499115718
+    },
+    "32": {
+     "neff_B": 30.107963093922983,
+     "gap": 7.436486817369438
+    }
+   }
+  },
+  {
+   "seed_base": 53000,
+   "rows": {
+    "16": {
+     "neff_B": 15.644913709607826,
+     "gap": 2.852688443506981
+    },
+    "24": {
+     "neff_B": 23.017497995838003,
+     "gap": 5.079925265943608
+    },
+    "32": {
+     "neff_B": 30.12532780645362,
+     "gap": 7.453851529900074
+    }
+   }
+  },
+  {
+   "seed_base": 54000,
+   "rows": {
+    "16": {
+     "neff_B": 15.566713413756917,
+     "gap": 2.774488147656072
+    },
+    "24": {
+     "neff_B": 22.92015376961181,
+     "gap": 4.982581039717417
+    },
+    "32": {
+     "neff_B": 30.046273951285258,
+     "gap": 7.374797674731713
+    }
+   }
+  },
+  {
+   "seed_base": 55000,
+   "rows": {
+    "16": {
+     "neff_B": 15.494053239409057,
+     "gap": 2.7018279733082124
+    },
+    "24": {
+     "neff_B": 23.073541252274023,
+     "gap": 5.135968522379628
+    },
+    "32": {
+     "neff_B": 30.294106409532592,
+     "gap": 7.622630132979047
+    }
+   }
+  },
+  {
+   "seed_base": 56000,
+   "rows": {
+    "16": {
+     "neff_B": 15.642785898395026,
+     "gap": 2.850560632294181
+    },
+    "24": {
+     "neff_B": 23.260564990199974,
+     "gap": 5.322992260305579
+    },
+    "32": {
+     "neff_B": 30.54269952986218,
+     "gap": 7.871223253308635
+    }
+   }
+  },
+  {
+   "seed_base": 57000,
+   "rows": {
+    "16": {
+     "neff_B": 15.57674906153632,
+     "gap": 2.784523795435476
+    },
+    "24": {
+     "neff_B": 23.194137814686474,
+     "gap": 5.256565084792079
+    },
+    "32": {
+     "neff_B": 30.47273864065567,
+     "gap": 7.801262364102126
+    }
+   }
+  },
+  {
+   "seed_base": 58000,
+   "rows": {
+    "16": {
+     "neff_B": 15.599781888989073,
+     "gap": 2.807556622888228
+    },
+    "24": {
+     "neff_B": 23.254539451111437,
+     "gap": 5.316966721217042
+    },
+    "32": {
+     "neff_B": 30.439546446515283,
+     "gap": 7.768070169961739
+    }
+   }
+  },
+  {
+   "seed_base": 59000,
+   "rows": {
+    "16": {
+     "neff_B": 15.570146317439304,
+     "gap": 2.77792105133846
+    },
+    "24": {
+     "neff_B": 23.020389514935374,
+     "gap": 5.082816785040979
+    },
+    "32": {
+     "neff_B": 30.52585622565027,
+     "gap": 7.8543799490967245
+    }
+   }
+  },
+  {
+   "seed_base": 60000,
+   "rows": {
+    "16": {
+     "neff_B": 15.492513487183501,
+     "gap": 2.7002882210826566
+    },
+    "24": {
+     "neff_B": 22.950346993846473,
+     "gap": 5.012774263952078
+    },
+    "32": {
+     "neff_B": 30.09826411472179,
+     "gap": 7.426787838168245
+    }
+   }
+  },
+  {
+   "seed_base": 61000,
+   "rows": {
+    "16": {
+     "neff_B": 15.633339770422051,
+     "gap": 2.8411145043212063
+    },
+    "24": {
+     "neff_B": 23.12345767138338,
+     "gap": 5.185884941488986
+    },
+    "32": {
+     "neff_B": 30.392119211916317,
+     "gap": 7.720642935362772
+    }
+   }
+  },
+  {
+   "seed_base": 62000,
+   "rows": {
+    "16": {
+     "neff_B": 15.59135072364326,
+     "gap": 2.7991254575424147
+    },
+    "24": {
+     "neff_B": 23.06798160033675,
+     "gap": 5.130408870442356
+    },
+    "32": {
+     "neff_B": 30.23652099295823,
+     "gap": 7.565044716404685
+    }
+   }
+  },
+  {
+   "seed_base": 63000,
+   "rows": {
+    "16": {
+     "neff_B": 15.557414181210488,
+     "gap": 2.7651889151096434
+    },
+    "24": {
+     "neff_B": 22.925443378107943,
+     "gap": 4.987870648213548
+    },
+    "32": {
+     "neff_B": 30.19715818569424,
+     "gap": 7.525681909140694
+    }
+   }
+  },
+  {
+   "seed_base": 64000,
+   "rows": {
+    "16": {
+     "neff_B": 15.563558087829156,
+     "gap": 2.7713328217283113
+    },
+    "24": {
+     "neff_B": 23.076072950460574,
+     "gap": 5.138500220566179
+    },
+    "32": {
+     "neff_B": 30.41509302542584,
+     "gap": 7.743616748872295
+    }
+   }
+  },
+  {
+   "seed_base": 65000,
+   "rows": {
+    "16": {
+     "neff_B": 15.548063591849262,
+     "gap": 2.7558383257484174
+    },
+    "24": {
+     "neff_B": 22.8210201815024,
+     "gap": 4.883447451608006
+    },
+    "32": {
+     "neff_B": 29.98934827939318,
+     "gap": 7.317872002839636
+    }
+   }
+  },
+  {
+   "seed_base": 66000,
+   "rows": {
+    "16": {
+     "neff_B": 15.540471193480844,
+     "gap": 2.7482459273799993
+    },
+    "24": {
+     "neff_B": 22.90509687981761,
+     "gap": 4.967524149923214
+    },
+    "32": {
+     "neff_B": 30.228102705344103,
+     "gap": 7.556626428790558
+    }
+   }
+  },
+  {
+   "seed_base": 67000,
+   "rows": {
+    "16": {
+     "neff_B": 15.561082719079904,
+     "gap": 2.7688574529790593
+    },
+    "24": {
+     "neff_B": 22.927051236245564,
+     "gap": 4.989478506351169
+    },
+    "32": {
+     "neff_B": 30.214870494040486,
+     "gap": 7.5433942174869415
+    }
+   }
+  },
+  {
+   "seed_base": 68000,
+   "rows": {
+    "16": {
+     "neff_B": 15.5608125529857,
+     "gap": 2.7685872868848556
+    },
+    "24": {
+     "neff_B": 23.160197380046036,
+     "gap": 5.222624650151641
+    },
+    "32": {
+     "neff_B": 30.47973881110505,
+     "gap": 7.808262534551506
+    }
+   }
+  },
+  {
+   "seed_base": 69000,
+   "rows": {
+    "16": {
+     "neff_B": 15.578837523069481,
+     "gap": 2.7866122569686365
+    },
+    "24": {
+     "neff_B": 23.098367541007736,
+     "gap": 5.160794811113341
+    },
+    "32": {
+     "neff_B": 30.323526469170016,
+     "gap": 7.652050192616471
+    }
+   }
+  }
+ ],
+ "noise": [
+  {
+   "mu_seed": 11,
+   "noise_seed": 500,
+   "beta": 0.015417743324720068,
+   "ratio": 3.177056515464081
+  },
+  {
+   "mu_seed": 111,
+   "noise_seed": 10500,
+   "beta": 0.015406976744186047,
+   "ratio": 3.1781945415334887
+  },
+  {
+   "mu_seed": 211,
+   "noise_seed": 20500,
+   "beta": 0.015406976744186047,
+   "ratio": 3.233169508365332
+  },
+  {
+   "mu_seed": 311,
+   "noise_seed": 30500,
+   "beta": 0.015417743324720068,
+   "ratio": 3.160273179188475
+  },
+  {
+   "mu_seed": 411,
+   "noise_seed": 40500,
+   "beta": 0.015406976744186047,
+   "ratio": 3.006750420423502
+  },
+  {
+   "mu_seed": 511,
+   "noise_seed": 50500,
+   "beta": 0.015406976744186047,
+   "ratio": 3.336031426929007
+  },
+  {
+   "mu_seed": 611,
+   "noise_seed": 60500,
+   "beta": 0.015406976744186047,
+   "ratio": 3.2131101585270856
+  },
+  {
+   "mu_seed": 711,
+   "noise_seed": 70500,
+   "beta": 0.015450043066322137,
+   "ratio": 2.9412572901759635
+  }
+ ],
+ "lookalike": [
+  {
+   "seed": 3042,
+   "mean": 0.07765041863944128,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.847034139163869,
+   "victims_gt_10pct": 71,
+   "victims_gt_50pct": 8,
+   "oracle_null_mean": 0.18709793402279648
+  },
+  {
+   "seed": 4042,
+   "mean": 0.07432001178141757,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.467587077750663,
+   "victims_gt_10pct": 74,
+   "victims_gt_50pct": 9,
+   "oracle_null_mean": 0.18750007102419894
+  },
+  {
+   "seed": 5042,
+   "mean": 0.07749654671942603,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.82950287335377,
+   "victims_gt_10pct": 75,
+   "victims_gt_50pct": 8,
+   "oracle_null_mean": 0.18728268682817395
+  },
+  {
+   "seed": 6042,
+   "mean": 0.06731854524802998,
+   "median": 0.0,
+   "ratio_to_far_sampled": 7.669880967076447,
+   "victims_gt_10pct": 67,
+   "victims_gt_50pct": 8,
+   "oracle_null_mean": 0.18719933664325117
+  },
+  {
+   "seed": 7042,
+   "mean": 0.0838856262524782,
+   "median": 0.0,
+   "ratio_to_far_sampled": 9.557437194084333,
+   "victims_gt_10pct": 74,
+   "victims_gt_50pct": 13,
+   "oracle_null_mean": 0.18715835522183202
+  },
+  {
+   "seed": 8042,
+   "mean": 0.08000321946341868,
+   "median": 0.0,
+   "ratio_to_far_sampled": 9.11509849190141,
+   "victims_gt_10pct": 74,
+   "victims_gt_50pct": 7,
+   "oracle_null_mean": 0.1870633760917811
+  },
+  {
+   "seed": 9042,
+   "mean": 0.08731352103889675,
+   "median": 0.0,
+   "ratio_to_far_sampled": 9.947991459370714,
+   "victims_gt_10pct": 84,
+   "victims_gt_50pct": 8,
+   "oracle_null_mean": 0.18751578932432297
+  },
+  {
+   "seed": 10042,
+   "mean": 0.07684733158131261,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.755535100981271,
+   "victims_gt_10pct": 70,
+   "victims_gt_50pct": 9,
+   "oracle_null_mean": 0.1871539007618146
+  },
+  {
+   "seed": 11042,
+   "mean": 0.08330957092516582,
+   "median": 0.0,
+   "ratio_to_far_sampled": 9.491804822281624,
+   "victims_gt_10pct": 79,
+   "victims_gt_50pct": 10,
+   "oracle_null_mean": 0.1872187079026733
+  },
+  {
+   "seed": 12042,
+   "mean": 0.0730322954256881,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.320872214388528,
+   "victims_gt_10pct": 71,
+   "victims_gt_50pct": 7,
+   "oracle_null_mean": 0.1871656345718403
+  },
+  {
+   "seed": 13042,
+   "mean": 0.07609883052139177,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.670255271891508,
+   "victims_gt_10pct": 74,
+   "victims_gt_50pct": 9,
+   "oracle_null_mean": 0.18746612044388541
+  },
+  {
+   "seed": 14042,
+   "mean": 0.07218527742098182,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.224367941321844,
+   "victims_gt_10pct": 70,
+   "victims_gt_50pct": 7,
+   "oracle_null_mean": 0.1873059864851679
+  },
+  {
+   "seed": 15042,
+   "mean": 0.07601572879870078,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.660787148080297,
+   "victims_gt_10pct": 69,
+   "victims_gt_50pct": 8,
+   "oracle_null_mean": 0.18719629565020499
+  },
+  {
+   "seed": 16042,
+   "mean": 0.07885158131126253,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.983887582461266,
+   "victims_gt_10pct": 78,
+   "victims_gt_50pct": 9,
+   "oracle_null_mean": 0.18742114590508477
+  },
+  {
+   "seed": 17042,
+   "mean": 0.07161198674863772,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.159050558122106,
+   "victims_gt_10pct": 66,
+   "victims_gt_50pct": 7,
+   "oracle_null_mean": 0.18738939234410795
+  },
+  {
+   "seed": 18042,
+   "mean": 0.07887191338818347,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.986204100282952,
+   "victims_gt_10pct": 67,
+   "victims_gt_50pct": 9,
+   "oracle_null_mean": 0.18723755340575882
+  },
+  {
+   "seed": 19042,
+   "mean": 0.07532035924017452,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.581560811231004,
+   "victims_gt_10pct": 71,
+   "victims_gt_50pct": 7,
+   "oracle_null_mean": 0.18711519832859624
+  },
+  {
+   "seed": 20042,
+   "mean": 0.07627144013625334,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.689921400963124,
+   "victims_gt_10pct": 75,
+   "victims_gt_50pct": 8,
+   "oracle_null_mean": 0.18723484841091015
+  },
+  {
+   "seed": 21042,
+   "mean": 0.07954661780435607,
+   "median": 0.0,
+   "ratio_to_far_sampled": 9.0630759717849,
+   "victims_gt_10pct": 69,
+   "victims_gt_50pct": 9,
+   "oracle_null_mean": 0.18737271325779514
+  },
+  {
+   "seed": 22042,
+   "mean": 0.07656881510217306,
+   "median": 0.0,
+   "ratio_to_far_sampled": 8.723802563765872,
+   "victims_gt_10pct": 77,
+   "victims_gt_50pct": 8,
+   "oracle_null_mean": 0.18745609813436862
+  }
+ ],
+ "centering": {
+  "pool_images": 7808,
+  "pool_sha256": "6e64b37919d9f873d19ce09cd7e2a23f8bb674cdec3934084751ba7229798c94",
+  "draws": [
+   {
+    "seed": 7,
+    "draw_sha256": "5237653ada558f00ea6bacf44bba70f94865bea108f4e707a824ff8aec539ea4",
+    "pick": 15,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.5103393889982275,
+     "capped": 4.5103393889982275,
+     "subject": 4.5103393889982275
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": -1.3593061422186068
+   },
+   {
+    "seed": 1,
+    "draw_sha256": "ace9e776e2b943e7c695bedee5f739f5c098222eb35fd154b2bddaf4a85376b7",
+    "pick": 19,
+    "eligible": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     19
+    ],
+    "n15_residual": {
+     "probe": 4.526849613622861,
+     "capped": 4.526849613622861,
+     "subject": 4.526849613622861
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 99.3
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [
+     19
+    ],
+    "n24_probe_residual": 3.616940977684468
+   },
+   {
+    "seed": 2,
+    "draw_sha256": "f8af8e859d8dc4a41f33efd6a4f9008d43dab6f84df589b9d6b3f506107d3c5c",
+    "pick": 21,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     19,
+     20,
+     21
+    ],
+    "n15_residual": {
+     "probe": 4.538170206768761,
+     "capped": 4.538170206768761,
+     "subject": 4.538170206768761
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [
+     19,
+     20,
+     21
+    ],
+    "n24_probe_residual": 3.655465544825603
+   },
+   {
+    "seed": 3,
+    "draw_sha256": "9b21ade1d985f1f92bbee56c8f6f8b17e48d33c2354b10769a74629e7b022cb8",
+    "pick": 15,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.499198927995666,
+     "capped": 4.499198927995666,
+     "subject": 4.499198927995666
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.664559899444434
+   },
+   {
+    "seed": 4,
+    "draw_sha256": "0e71e5a80a7e39d406ea172e32d2d44df2f664a68dd67b101c038fd75f604c4c",
+    "pick": 15,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.492143396185753,
+     "capped": 4.492143396185753,
+     "subject": 4.492143396185753
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 99.9,
+     "subject": 99.2
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.614754222428587
+   },
+   {
+    "seed": 5,
+    "draw_sha256": "b67fe291c6bd97f2251ceecef20b8a70f17fa747fb88a3e473223afe45630473",
+    "pick": 15,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.469769644154006,
+     "capped": 4.469769644154006,
+     "subject": 4.469769644154006
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.6541844489098096
+   },
+   {
+    "seed": 6,
+    "draw_sha256": "209cfa326938bfaa4ecfabff963a9583ac3a7158fad6a47730bfea913076b83e",
+    "pick": 15,
+    "eligible": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.424256186153228,
+     "capped": 4.424256186153228,
+     "subject": 4.424256186153228
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.6341546735316577
+   },
+   {
+    "seed": 8,
+    "draw_sha256": "f615a773e48c08fe83c3ba92dac995ec290f5b454d04e0cb533cac4e3031a7e6",
+    "pick": 15,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.521201650545617,
+     "capped": 4.521201650545617,
+     "subject": 4.521201650545617
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.6063462330621263
+   },
+   {
+    "seed": 9,
+    "draw_sha256": "e77ea1112d10fe942ac84b0eaec15d26e196449ac93aba7bb34e78f10575f193",
+    "pick": 20,
+    "eligible": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     19,
+     20
+    ],
+    "n15_residual": {
+     "probe": 4.538962988969928,
+     "capped": 4.538962988969928,
+     "subject": 4.538962988969928
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [
+     19,
+     20
+    ],
+    "n24_probe_residual": 3.6733287765206484
+   },
+   {
+    "seed": 10,
+    "draw_sha256": "346f1206899a9bea53e458bb5667920207aa34fc86b50b91035317c60575ea32",
+    "pick": 20,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     19,
+     20
+    ],
+    "n15_residual": {
+     "probe": 4.5164662647464695,
+     "capped": 4.5164662647464695,
+     "subject": 4.5164662647464695
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [
+     19,
+     20
+    ],
+    "n24_probe_residual": 3.6066697437547326
+   },
+   {
+    "seed": 11,
+    "draw_sha256": "f184efd604d433ca7ee49bf6998a5c476e88fe3444fc877ddfbae3a30ae1f38b",
+    "pick": 14,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.478061500321605,
+     "capped": 4.478061500321605,
+     "subject": 2.478061500321605
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 3
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.607305101145858
+   },
+   {
+    "seed": 12,
+    "draw_sha256": "1d1a20404a39ff155f2a7c41272049517e3bba1f4e0e59e921db53ba99ed2188",
+    "pick": 15,
+    "eligible": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.488133327211221,
+     "capped": 4.488133327211221,
+     "subject": 4.488133327211221
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.6001095314338265
+   },
+   {
+    "seed": 13,
+    "draw_sha256": "b37209095bee1b88d9a67bc57983d5228bf4e3239ef0cae3413e1b4b919fe554",
+    "pick": 15,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.493001726935704,
+     "capped": 4.493001726935704,
+     "subject": 4.493001726935704
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.6597577829387156
+   },
+   {
+    "seed": 14,
+    "draw_sha256": "e3f627b855b86bd9dbab7f12ec9a261576ebf4e30bf54f1ebc28589f7f4693bf",
+    "pick": 14,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.478818953406025,
+     "capped": 4.478818953406025,
+     "subject": 2.4788189534060248
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 3
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.662622143195879
+   },
+   {
+    "seed": 15,
+    "draw_sha256": "590c13e5c7e1bb08408e3333111e44035b0f07dcc6471f1c18000f9e0bdb23b6",
+    "pick": 15,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.498928835104508,
+     "capped": 4.498928835104508,
+     "subject": 4.498928835104508
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.6925762985394712
+   },
+   {
+    "seed": 16,
+    "draw_sha256": "5fa3945ca09b50736bd4a1204988bf960b43a810aeccd9bcd756914758a5e307",
+    "pick": 15,
+    "eligible": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.5013436343479984,
+     "capped": 4.5013436343479984,
+     "subject": 4.5013436343479984
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.6862929719943516
+   },
+   {
+    "seed": 17,
+    "draw_sha256": "4dd044cb94545cd06d83c0279edf4266ffb8acc8f150446ae7c8bd3d3be0776a",
+    "pick": 19,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     19
+    ],
+    "n15_residual": {
+     "probe": 4.502471191437047,
+     "capped": 4.502471191437047,
+     "subject": 4.502471191437047
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [
+     19
+    ],
+    "n24_probe_residual": 3.633740772762028
+   },
+   {
+    "seed": 18,
+    "draw_sha256": "6ebd3d0782583caf41dc8b1c1eba6037fecc82fa098951b82a4508108ccf3d69",
+    "pick": 19,
+    "eligible": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     19
+    ],
+    "n15_residual": {
+     "probe": 4.535043342500574,
+     "capped": 4.535043342500574,
+     "subject": 4.535043342500574
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [
+     19
+    ],
+    "n24_probe_residual": 3.614293831801753
+   },
+   {
+    "seed": 19,
+    "draw_sha256": "8d87a1b383447f421b5fa8e4fa91484e8865d9b210c2cb868869444c86b2125f",
+    "pick": 15,
+    "eligible": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.507609973344868,
+     "capped": 4.507609973344868,
+     "subject": 4.507609973344868
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.595925775194047
+   },
+   {
+    "seed": 20,
+    "draw_sha256": "04610983fd9b0b428da685198b9cb375ea101e95042ce868a9ef554c16df6ac8",
+    "pick": 15,
+    "eligible": [
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.492691067757978,
+     "capped": 4.492691067757978,
+     "subject": 4.492691067757978
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.5899677928840674
+   },
+   {
+    "seed": 21,
+    "draw_sha256": "2518ae5a0337ef83871f260cdaa544a0398c65820be3f6a5003ba97198c25b0e",
+    "pick": 15,
+    "eligible": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "n15_residual": {
+     "probe": 4.510430418267804,
+     "capped": 4.510430418267804,
+     "subject": 4.510430418267804
+    },
+    "n15_closure": {
+     "probe": 100.0,
+     "capped": 100.0,
+     "subject": 100.0
+    },
+    "n15_t": {
+     "probe": 2,
+     "capped": 2,
+     "subject": 2
+    },
+    "eligible_above_15": [],
+    "n24_probe_residual": 3.5704057893937353
+   }
+  ]
+ },
+ "wall_seconds": 2773.9
+}
