@@ -1,55 +1,65 @@
 quantity,value,units,script,function,seeds,commit
-robust bootstrap seeds,60,count,analyses/robustness.py,bootstrap_seeds,"542+n (logged) and 10000*k+n, k=1..59",32ee479e8c8b
-robust bootstrap n=15 subject closure logged seed,96.1,%,analyses/robustness.py,bootstrap_seeds,542+n,32ee479e8c8b
-robust bootstrap n=15 subject closure pooled,95.39833333333334,%,analyses/robustness.py,mean over seeds (1000 replicates each),"542+n (logged) and 10000*k+n, k=1..59",32ee479e8c8b
-robust bootstrap n=15 subject closure range,"[93.8, 96.5]","% [min,max]",analyses/robustness.py,over seeds,"542+n (logged) and 10000*k+n, k=1..59",32ee479e8c8b
-robust bootstrap seeds above logged n=15 subject closure,9,count,analyses/robustness.py,over seeds,"542+n (logged) and 10000*k+n, k=1..59",32ee479e8c8b
-robust bootstrap seeds n=15 below 95%,14,count,analyses/robustness.py,over seeds,"542+n (logged) and 10000*k+n, k=1..59",32ee479e8c8b
-robust bootstrap seeds rule picks n=14,14,count,analyses/robustness.py,apply_rule,"542+n (logged) and 10000*k+n, k=1..59",32ee479e8c8b
-robust bootstrap seeds rule picks n=15,46,count,analyses/robustness.py,apply_rule,"542+n (logged) and 10000*k+n, k=1..59",32ee479e8c8b
-robust bootstrap other picks,0,count,analyses/robustness.py,apply_rule,"542+n (logged) and 10000*k+n, k=1..59",32ee479e8c8b
-robust bootstrap n=9 capped closure pooled,93.77833333333334,%,analyses/robustness.py,mean over seeds,"542+n (logged) and 10000*k+n, k=1..59",32ee479e8c8b
-robust projection runs,20,count,analyses/robustness.py,projection,"projection seeds 43,101,202,303,404,1-15",32ee479e8c8b
-robust projection rule picks n=15,12,count,analyses/robustness.py,apply_rule,"projection seeds 43,101,202,303,404,1-15",32ee479e8c8b
-robust projection rule picks n=14,2,count,analyses/robustness.py,apply_rule,"projection seeds 43,101,202,303,404,1-15",32ee479e8c8b
-robust projection rule picks none,1,count,analyses/robustness.py,apply_rule,"projection seeds 43,101,202,303,404,1-15",32ee479e8c8b
-robust projection rule picks list,"[15, 15, 14, 20, 15, 15, 15, 20, 15, 17, 13, 15, null, 15, 15, 14, 21, 15, 15, 15]",list,analyses/robustness.py,apply_rule,"projection seeds 43,101,202,303,404,1-15",32ee479e8c8b
-robust projection n=15 eligible,19,count,analyses/robustness.py,apply_rule,"projection seeds 43,101,202,303,404,1-15",32ee479e8c8b
-robust projection n=15 positive under every weighting,20,count,analyses/robustness.py,min over weightings of N_eff - parity,"projection seeds 43,101,202,303,404,1-15",32ee479e8c8b
-robust projection n=15 min-over-weighting residual range,"[2.05, 4.26]","bits [min,max]",analyses/robustness.py,evaluate,"projection seeds 43,101,202,303,404,1-15",32ee479e8c8b
-robust projection runs with an eligible length above 15,4,count,analyses/robustness.py,apply_rule,"projection seeds 43,101,202,303,404,1-15",32ee479e8c8b
-robust enrollment runs,20,count,analyses/robustness.py,enrollment,enrollment draws 0-19 (0 = first five images),32ee479e8c8b
-robust enrollment rule picks n=15,9,count,analyses/robustness.py,apply_rule,enrollment draws 0-19 (0 = first five images),32ee479e8c8b
-robust enrollment rule picks n=14,8,count,analyses/robustness.py,apply_rule,enrollment draws 0-19 (0 = first five images),32ee479e8c8b
-robust enrollment rule picks none,2,count,analyses/robustness.py,apply_rule,enrollment draws 0-19 (0 = first five images),32ee479e8c8b
-robust enrollment rule picks list,"[15, 15, 15, 15, 14, 16, 14, 15, 14, 15, 15, 15, 14, 14, 14, 14, 14, null, null, 15]",list,analyses/robustness.py,apply_rule,enrollment draws 0-19 (0 = first five images),32ee479e8c8b
-robust enrollment n=15 eligible,12,count,analyses/robustness.py,apply_rule,enrollment draws 0-19 (0 = first five images),32ee479e8c8b
-robust enrollment n=15 positive under every weighting,20,count,analyses/robustness.py,min over weightings of N_eff - parity,enrollment draws 0-19 (0 = first five images),32ee479e8c8b
-robust enrollment n=15 min-over-weighting residual range,"[2.04, 4.24]","bits [min,max]",analyses/robustness.py,evaluate,enrollment draws 0-19 (0 = first five images),32ee479e8c8b
-robust enrollment runs with an eligible length above 15,1,count,analyses/robustness.py,apply_rule,enrollment draws 0-19 (0 = first five images),32ee479e8c8b
-robust projection+enrollment runs,40,count,analyses/robustness.py,projection + enrollment,both,32ee479e8c8b
-robust projection+enrollment rule picks n=15,21,count,analyses/robustness.py,apply_rule,both,32ee479e8c8b
-robust projection+enrollment rule picks n=14,10,count,analyses/robustness.py,apply_rule,both,32ee479e8c8b
-robust projection+enrollment rule picks another length,6,count,analyses/robustness.py,apply_rule,both,32ee479e8c8b
-robust projection+enrollment other picks range,"[13, 21]","n [min,max]",analyses/robustness.py,apply_rule,both,32ee479e8c8b
-robust projection+enrollment rule picks none,3,count,analyses/robustness.py,apply_rule,both,32ee479e8c8b
-robust projection+enrollment n=15 positive under every weighting,40,count,analyses/robustness.py,evaluate,both,32ee479e8c8b
-robust projection+enrollment n=15 min-over-weighting residual range,"[2.04, 4.26]","bits [min,max]",analyses/robustness.py,evaluate,both,32ee479e8c8b
-robust centering outside pool images,7808,images,analyses/robustness.py,outside_pool,-,32ee479e8c8b
-robust centering draws,21,count,analyses/robustness.py,centering_draws,"random.Random(seed), seeds 7 and 1-6, 8-21",32ee479e8c8b
-robust centering rule picks n=15,13,count,analyses/robustness.py,apply_rule,"random.Random(seed), seeds 7 and 1-6, 8-21",32ee479e8c8b
-robust centering other picks,"[14, 14, 19, 19, 19, 20, 20, 21]",list,analyses/robustness.py,apply_rule,"random.Random(seed), seeds 7 and 1-6, 8-21",32ee479e8c8b
-robust centering n=15 residual range (every weighting),"[2.48, 4.54]","bits [min,max]",analyses/robustness.py,evaluate,"random.Random(seed), seeds 7 and 1-6, 8-21",32ee479e8c8b
-robust centering n=15 min closure (min over draws and weightings),99.2,%,analyses/robustness.py,evaluate,"random.Random(seed), seeds 7 and 1-6, 8-21",32ee479e8c8b
-robust centering n=24 probe residual range,"[-1.36, 3.69]","bits [min,max]",analyses/robustness.py,evaluate,"random.Random(seed), seeds 7 and 1-6, 8-21",32ee479e8c8b
-robust random arm gap n=16 range,"[2.52, 2.85]","bits [min,max]",analyses/robustness.py,random_arm,seed_base 2042 (paper) and 51000-69000,32ee479e8c8b
-robust random arm gap n=24 range,"[4.8, 5.32]","bits [min,max]",analyses/robustness.py,random_arm,seed_base 2042 (paper) and 51000-69000,32ee479e8c8b
-robust random arm gap n=32 range,"[7.07, 7.87]","bits [min,max]",analyses/robustness.py,random_arm,seed_base 2042 (paper) and 51000-69000,32ee479e8c8b
-robust random arm gap n=24 median,5.0813710254922935,bits,analyses/robustness.py,random_arm,seed_base 2042 (paper) and 51000-69000,32ee479e8c8b
-robust noise control ratio range,"[2.94, 3.34]","x [min,max]",analyses/robustness.py,noise_control,"mu/noise seeds (11,500) and 7 others",32ee479e8c8b
-robust lookalike realistic mean range,"[6.73, 8.73]","% [min,max]",analyses/robustness.py,lookalike_splits,split seeds 3042 (paper) and 4042-22042,32ee479e8c8b
-robust lookalike ratio range,"[7.67, 9.95]","x [min,max]",analyses/robustness.py,lookalike_splits,split seeds 3042 (paper) and 4042-22042,32ee479e8c8b
-robust lookalike median always zero,True,bool,analyses/robustness.py,lookalike_splits,split seeds 3042 (paper) and 4042-22042,32ee479e8c8b
-robust lookalike victims >10% range,"[66, 84]","victims [min,max]",analyses/robustness.py,lookalike_splits,split seeds 3042 (paper) and 4042-22042,32ee479e8c8b
-robust lookalike victims >50% range,"[7, 13]","victims [min,max]",analyses/robustness.py,lookalike_splits,split seeds 3042 (paper) and 4042-22042,32ee479e8c8b
-robust lookalike null mean range,"[18.71, 18.75]","% [min,max]",analyses/robustness.py,lookalike_splits,split seeds 3042 (paper) and 4042-22042,32ee479e8c8b
+robust bootstrap seeds,60,count,analyses/robustness.py,bootstrap_seeds,"542+n (logged) and 10000*k+n, k=1..59",c40a64763785
+robust bootstrap n=15 subject closure logged seed,96.1,%,analyses/robustness.py,bootstrap_seeds,542+n,c40a64763785
+robust bootstrap n=15 subject closure pooled,95.39833333333334,%,analyses/robustness.py,mean over seeds (1000 replicates each),"542+n (logged) and 10000*k+n, k=1..59",c40a64763785
+robust bootstrap n=15 subject closure range,"[93.8, 96.5]","% [min,max]",analyses/robustness.py,over seeds,"542+n (logged) and 10000*k+n, k=1..59",c40a64763785
+robust bootstrap seeds above logged n=15 subject closure,9,count,analyses/robustness.py,over seeds,"542+n (logged) and 10000*k+n, k=1..59",c40a64763785
+robust bootstrap seeds n=15 below 95%,14,count,analyses/robustness.py,over seeds,"542+n (logged) and 10000*k+n, k=1..59",c40a64763785
+robust bootstrap seeds rule picks n=14,14,count,analyses/robustness.py,apply_rule,"542+n (logged) and 10000*k+n, k=1..59",c40a64763785
+robust bootstrap seeds rule picks n=15,46,count,analyses/robustness.py,apply_rule,"542+n (logged) and 10000*k+n, k=1..59",c40a64763785
+robust bootstrap other picks,0,count,analyses/robustness.py,apply_rule,"542+n (logged) and 10000*k+n, k=1..59",c40a64763785
+robust bootstrap n=9 capped closure pooled,93.77833333333334,%,analyses/robustness.py,mean over seeds,"542+n (logged) and 10000*k+n, k=1..59",c40a64763785
+robust projection runs,20,count,analyses/robustness.py,projection,"projection seeds 43,101,202,303,404,1-15",c40a64763785
+robust projection rule picks n=15,12,count,analyses/robustness.py,apply_rule,"projection seeds 43,101,202,303,404,1-15",c40a64763785
+robust projection rule picks n=14,2,count,analyses/robustness.py,apply_rule,"projection seeds 43,101,202,303,404,1-15",c40a64763785
+robust projection rule picks none,1,count,analyses/robustness.py,apply_rule,"projection seeds 43,101,202,303,404,1-15",c40a64763785
+robust projection rule picks list,"[15, 15, 14, 20, 15, 15, 15, 20, 15, 17, 13, 15, null, 15, 15, 14, 21, 15, 15, 15]",list,analyses/robustness.py,apply_rule,"projection seeds 43,101,202,303,404,1-15",c40a64763785
+robust projection n=15 eligible,19,count,analyses/robustness.py,apply_rule,"projection seeds 43,101,202,303,404,1-15",c40a64763785
+robust projection n=15 positive under every weighting,20,count,analyses/robustness.py,min over weightings of N_eff - parity,"projection seeds 43,101,202,303,404,1-15",c40a64763785
+robust projection n=15 min-over-weighting residual range,"[2.05, 4.26]","bits [min,max]",analyses/robustness.py,evaluate,"projection seeds 43,101,202,303,404,1-15",c40a64763785
+robust projection runs with an eligible length above 15,4,count,analyses/robustness.py,apply_rule,"projection seeds 43,101,202,303,404,1-15",c40a64763785
+robust enrollment runs,20,count,analyses/robustness.py,enrollment,enrollment draws 0-19 (0 = first five images),c40a64763785
+robust enrollment rule picks n=15,9,count,analyses/robustness.py,apply_rule,enrollment draws 0-19 (0 = first five images),c40a64763785
+robust enrollment rule picks n=14,8,count,analyses/robustness.py,apply_rule,enrollment draws 0-19 (0 = first five images),c40a64763785
+robust enrollment rule picks none,2,count,analyses/robustness.py,apply_rule,enrollment draws 0-19 (0 = first five images),c40a64763785
+robust enrollment rule picks list,"[15, 15, 15, 15, 14, 16, 14, 15, 14, 15, 15, 15, 14, 14, 14, 14, 14, null, null, 15]",list,analyses/robustness.py,apply_rule,enrollment draws 0-19 (0 = first five images),c40a64763785
+robust enrollment n=15 eligible,12,count,analyses/robustness.py,apply_rule,enrollment draws 0-19 (0 = first five images),c40a64763785
+robust enrollment n=15 positive under every weighting,20,count,analyses/robustness.py,min over weightings of N_eff - parity,enrollment draws 0-19 (0 = first five images),c40a64763785
+robust enrollment n=15 min-over-weighting residual range,"[2.04, 4.24]","bits [min,max]",analyses/robustness.py,evaluate,enrollment draws 0-19 (0 = first five images),c40a64763785
+robust enrollment runs with an eligible length above 15,1,count,analyses/robustness.py,apply_rule,enrollment draws 0-19 (0 = first five images),c40a64763785
+robust redraws count,38,count,analyses/robustness.py,projection[1:] + enrollment[1:],"projection seeds 101,202,303,404,1-15 and enrollment draws 1-19",c40a64763785
+robust redraws rule picks n=15,19,count,analyses/robustness.py,apply_rule,"projection seeds 101,202,303,404,1-15 and enrollment draws 1-19",c40a64763785
+robust redraws rule picks n=14,10,count,analyses/robustness.py,apply_rule,"projection seeds 101,202,303,404,1-15 and enrollment draws 1-19",c40a64763785
+robust redraws rule picks another length,6,count,analyses/robustness.py,apply_rule,"projection seeds 101,202,303,404,1-15 and enrollment draws 1-19",c40a64763785
+robust redraws rule picks none,3,count,analyses/robustness.py,apply_rule,"projection seeds 101,202,303,404,1-15 and enrollment draws 1-19",c40a64763785
+robust redraws n=15 positive under every weighting,38,count,analyses/robustness.py,evaluate,"projection seeds 101,202,303,404,1-15 and enrollment draws 1-19",c40a64763785
+robust redraws n=15 min-over-weighting residual range,"[2.04, 4.26]","bits [min,max]",analyses/robustness.py,evaluate,"projection seeds 101,202,303,404,1-15 and enrollment draws 1-19",c40a64763785
+robust projection+enrollment runs,40,count,analyses/robustness.py,projection + enrollment,both,c40a64763785
+robust projection+enrollment rule picks n=15,21,count,analyses/robustness.py,apply_rule,both,c40a64763785
+robust projection+enrollment rule picks n=14,10,count,analyses/robustness.py,apply_rule,both,c40a64763785
+robust projection+enrollment rule picks another length,6,count,analyses/robustness.py,apply_rule,both,c40a64763785
+robust projection+enrollment other picks range,"[13, 21]","n [min,max]",analyses/robustness.py,apply_rule,both,c40a64763785
+robust projection+enrollment rule picks none,3,count,analyses/robustness.py,apply_rule,both,c40a64763785
+robust projection+enrollment n=15 positive under every weighting,40,count,analyses/robustness.py,evaluate,both,c40a64763785
+robust projection+enrollment n=15 min-over-weighting residual range,"[2.04, 4.26]","bits [min,max]",analyses/robustness.py,evaluate,both,c40a64763785
+robust centering outside pool images,7808,images,analyses/robustness.py,outside_pool,-,c40a64763785
+robust centering draws,21,count,analyses/robustness.py,centering_draws,"random.Random(seed), seeds 7 and 1-6, 8-21",c40a64763785
+robust centering rule picks n=15,13,count,analyses/robustness.py,apply_rule,"random.Random(seed), seeds 7 and 1-6, 8-21",c40a64763785
+robust centering other picks,"[14, 14, 19, 19, 19, 20, 20, 21]",list,analyses/robustness.py,apply_rule,"random.Random(seed), seeds 7 and 1-6, 8-21",c40a64763785
+robust centering n=15 residual range (every weighting),"[2.48, 4.54]","bits [min,max]",analyses/robustness.py,evaluate,"random.Random(seed), seeds 7 and 1-6, 8-21",c40a64763785
+robust centering n=15 min closure (min over draws and weightings),99.2,%,analyses/robustness.py,evaluate,"random.Random(seed), seeds 7 and 1-6, 8-21",c40a64763785
+robust centering n=24 probe residual range,"[-1.36, 3.69]","bits [min,max]",analyses/robustness.py,evaluate,"random.Random(seed), seeds 7 and 1-6, 8-21",c40a64763785
+robust random arm gap n=16 range,"[2.52, 2.85]","bits [min,max]",analyses/robustness.py,random_arm,seed_base 2042 (paper) and 51000-69000,c40a64763785
+robust random arm gap n=16 paper draw is the smallest,True,bool,analyses/robustness.py,random_arm,seed_base 2042 (paper) and 51000-69000,c40a64763785
+robust random arm gap n=24 range,"[4.8, 5.32]","bits [min,max]",analyses/robustness.py,random_arm,seed_base 2042 (paper) and 51000-69000,c40a64763785
+robust random arm gap n=24 paper draw is the smallest,True,bool,analyses/robustness.py,random_arm,seed_base 2042 (paper) and 51000-69000,c40a64763785
+robust random arm gap n=32 range,"[7.07, 7.87]","bits [min,max]",analyses/robustness.py,random_arm,seed_base 2042 (paper) and 51000-69000,c40a64763785
+robust random arm gap n=32 paper draw is the smallest,True,bool,analyses/robustness.py,random_arm,seed_base 2042 (paper) and 51000-69000,c40a64763785
+robust random arm gap n=24 median,5.0813710254922935,bits,analyses/robustness.py,random_arm,seed_base 2042 (paper) and 51000-69000,c40a64763785
+robust noise control ratio range,"[2.94, 3.34]","x [min,max]",analyses/robustness.py,noise_control,"mu/noise seeds (11,500) and 7 others",c40a64763785
+robust lookalike realistic mean range,"[6.73, 8.73]","% [min,max]",analyses/robustness.py,lookalike_splits,split seeds 3042 (paper) and 4042-22042,c40a64763785
+robust lookalike ratio range,"[7.67, 9.95]","x [min,max]",analyses/robustness.py,lookalike_splits,split seeds 3042 (paper) and 4042-22042,c40a64763785
+robust lookalike median always zero,True,bool,analyses/robustness.py,lookalike_splits,split seeds 3042 (paper) and 4042-22042,c40a64763785
+robust lookalike victims >10% range,"[66, 84]","victims [min,max]",analyses/robustness.py,lookalike_splits,split seeds 3042 (paper) and 4042-22042,c40a64763785
+robust lookalike victims >50% range,"[7, 13]","victims [min,max]",analyses/robustness.py,lookalike_splits,split seeds 3042 (paper) and 4042-22042,c40a64763785
+robust lookalike null mean range,"[18.71, 18.75]","% [min,max]",analyses/robustness.py,lookalike_splits,split seeds 3042 (paper) and 4042-22042,c40a64763785
