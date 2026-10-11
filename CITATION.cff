@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "shorter-not-longer: code and results for the paper on residual entropy of BCH fuzzy commitments"
+type: software
+license: MIT
+repository-code: "https://github.com/Alternateacc-1/shorter-not-longer"
+version: "1.0.0"
+authors:
+  - family-names: "Mogare"
+    given-names: "Tejas"
+    affiliation: "JSPM's Rajarshi Shahu College of Engineering, Pune, India"
+preferred-citation:
+  type: conference-paper
+  title: "Shorter, Not Longer? Residual Entropy of BCH Fuzzy Commitments over Deep Face Embeddings"
+  year: 2026
+  conference:
+    name: "ITI 2026"
+  collection-title: "Lecture Notes in Networks and Systems"
+  publisher:
+    name: "Springer"
+  authors:
+    - family-names: "Mogare"
+      given-names: "Tejas"
+    - family-names: "Pakhale"
+      given-names: "Shreyas"
+    - family-names: "Shinde"
+      given-names: "Satvik"
+    - family-names: "Vasaikar"
+      given-names: "Mayank"
+    - family-names: "Deshmukh"
+      given-names: "Rushali"
