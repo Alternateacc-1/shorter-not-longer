@@ -1,0 +1,71 @@
+quantity,value,units,script,function,seeds,commit
+aligned embeddings sha256,0ad449dca6a0326e14032952b1b5942433551a9830a7acf7916731471f111682,sha256,analyses/alignment_results.py,results/pipeline/aligned_embeddings.npz (step 6),-,1bd73acf06c4
+aligned n=15 probe parity,4,bits,analyses/alignment_results.py,least parity meeting 1.5%,projection 43,1bd73acf06c4
+aligned n=15 probe t,1,errors,analyses/alignment_results.py,delivered capacity,projection 43,1bd73acf06c4
+aligned n=15 probe residual,8.099467790648562,bits,analyses/alignment_results.py,N_eff (aligned impostor HDs) - parity,projection 43,1bd73acf06c4
+aligned n=15 probe closure_pct,100.0,%,analyses/alignment_results.py,"subject-level cluster bootstrap, N_eff per replicate",projection 43; boot 557,1bd73acf06c4
+aligned n=15 probe closure_mixture,"[{""parity"":4,""share"":100.0,""pos"":100.0,""res"":8.1619}]",json,analyses/alignment_results.py,closure = sum_p share_p * P(res>0 | p),projection 43; boot 557,1bd73acf06c4
+aligned n=15 probe residual_ci95,"[7.5732, 8.6247]",bits,analyses/alignment_results.py,percentile,projection 43; boot 557,1bd73acf06c4
+aligned n=15 probe FAR_sampled,0.001535,rate,analyses/alignment_results.py,10^6 sampled trials,far 357,1bd73acf06c4
+aligned n=15 probe FAR_sampled_accepts,1535,count,analyses/alignment_results.py,10^6 sampled trials,far 357,1bd73acf06c4
+aligned n=15 probe FAR_full_pair,0.0015836546229579685,rate,analyses/alignment_results.py,"all 1,681,750 impostor comparisons, pair-uniform",-,1bd73acf06c4
+aligned n=15 probe FAR_full_comparison,0.0013557306377285565,rate,analyses/alignment_results.py,"all 1,681,750 comparisons, comparison-uniform",-,1bd73acf06c4
+aligned n=15 probe FAR_independent,0.00048828125,rate,analyses/alignment_results.py,"sum_{i<=t} C(n,i)/2^n",-,1bd73acf06c4
+aligned n=15 subject parity,4,bits,analyses/alignment_results.py,least parity meeting 1.5%,projection 43,1bd73acf06c4
+aligned n=15 subject t,1,errors,analyses/alignment_results.py,delivered capacity,projection 43,1bd73acf06c4
+aligned n=15 subject residual,8.099467790648562,bits,analyses/alignment_results.py,N_eff (aligned impostor HDs) - parity,projection 43,1bd73acf06c4
+aligned n=15 subject closure_pct,100.0,%,analyses/alignment_results.py,"subject-level cluster bootstrap, N_eff per replicate",projection 43; boot 557,1bd73acf06c4
+aligned n=15 subject closure_mixture,"[{""parity"":4,""share"":100.0,""pos"":100.0,""res"":8.1619}]",json,analyses/alignment_results.py,closure = sum_p share_p * P(res>0 | p),projection 43; boot 557,1bd73acf06c4
+aligned n=15 subject residual_ci95,"[7.5732, 8.6247]",bits,analyses/alignment_results.py,percentile,projection 43; boot 557,1bd73acf06c4
+aligned n=15 subject FAR_sampled,0.001535,rate,analyses/alignment_results.py,10^6 sampled trials,far 357,1bd73acf06c4
+aligned n=15 subject FAR_sampled_accepts,1535,count,analyses/alignment_results.py,10^6 sampled trials,far 357,1bd73acf06c4
+aligned n=15 subject FAR_full_pair,0.0015836546229579685,rate,analyses/alignment_results.py,"all 1,681,750 impostor comparisons, pair-uniform",-,1bd73acf06c4
+aligned n=15 subject FAR_full_comparison,0.0013557306377285565,rate,analyses/alignment_results.py,"all 1,681,750 comparisons, comparison-uniform",-,1bd73acf06c4
+aligned n=15 subject FAR_independent,0.00048828125,rate,analyses/alignment_results.py,"sum_{i<=t} C(n,i)/2^n",-,1bd73acf06c4
+aligned n=15 N_eff,12.099467790648562,bits,analyses/alignment_results.py,p(1-p)/var over aligned impostor HDs,projection 43,1bd73acf06c4
+aligned n=24 probe parity,10,bits,analyses/alignment_results.py,least parity meeting 1.5%,projection 43,1bd73acf06c4
+aligned n=24 probe t,2,errors,analyses/alignment_results.py,delivered capacity,projection 43,1bd73acf06c4
+aligned n=24 probe residual,7.789758841449473,bits,analyses/alignment_results.py,N_eff (aligned impostor HDs) - parity,projection 43,1bd73acf06c4
+aligned n=24 probe closure_pct,100.0,%,analyses/alignment_results.py,"subject-level cluster bootstrap, N_eff per replicate",projection 43; boot 566,1bd73acf06c4
+aligned n=24 probe closure_mixture,"[{""parity"":10,""share"":100.0,""pos"":100.0,""res"":7.9004}]",json,analyses/alignment_results.py,closure = sum_p share_p * P(res>0 | p),projection 43; boot 566,1bd73acf06c4
+aligned n=24 probe residual_ci95,"[6.8793, 8.6955]",bits,analyses/alignment_results.py,percentile,projection 43; boot 566,1bd73acf06c4
+aligned n=24 probe FAR_sampled,0.000205,rate,analyses/alignment_results.py,10^6 sampled trials,far 366,1bd73acf06c4
+aligned n=24 probe FAR_sampled_accepts,205,count,analyses/alignment_results.py,10^6 sampled trials,far 366,1bd73acf06c4
+aligned n=24 probe FAR_full_pair,0.00018653254155784717,rate,analyses/alignment_results.py,"all 1,681,750 impostor comparisons, pair-uniform",-,1bd73acf06c4
+aligned n=24 probe FAR_full_comparison,0.00016649323621227888,rate,analyses/alignment_results.py,"all 1,681,750 comparisons, comparison-uniform",-,1bd73acf06c4
+aligned n=24 probe FAR_independent,1.7940998077392578e-05,rate,analyses/alignment_results.py,"sum_{i<=t} C(n,i)/2^n",-,1bd73acf06c4
+aligned n=24 subject parity,10,bits,analyses/alignment_results.py,least parity meeting 1.5%,projection 43,1bd73acf06c4
+aligned n=24 subject t,2,errors,analyses/alignment_results.py,delivered capacity,projection 43,1bd73acf06c4
+aligned n=24 subject residual,7.789758841449473,bits,analyses/alignment_results.py,N_eff (aligned impostor HDs) - parity,projection 43,1bd73acf06c4
+aligned n=24 subject closure_pct,98.8,%,analyses/alignment_results.py,"subject-level cluster bootstrap, N_eff per replicate",projection 43; boot 566,1bd73acf06c4
+aligned n=24 subject closure_mixture,"[{""parity"":5,""share"":4.9,""pos"":100.0,""res"":12.9741},{""parity"":10,""share"":90.4,""pos"":100.0,""res"":7.8988},{""parity"":15,""share"":3.5,""pos"":100.0,""res"":2.8545},{""parity"":20,""share"":1.2,""pos"":0.0,""res"":-2.1406}]",json,analyses/alignment_results.py,closure = sum_p share_p * P(res>0 | p),projection 43; boot 566,1bd73acf06c4
+aligned n=24 subject residual_ci95,"[2.7004, 12.8288]",bits,analyses/alignment_results.py,percentile,projection 43; boot 566,1bd73acf06c4
+aligned n=24 subject FAR_sampled,0.000205,rate,analyses/alignment_results.py,10^6 sampled trials,far 366,1bd73acf06c4
+aligned n=24 subject FAR_sampled_accepts,205,count,analyses/alignment_results.py,10^6 sampled trials,far 366,1bd73acf06c4
+aligned n=24 subject FAR_full_pair,0.00018653254155784717,rate,analyses/alignment_results.py,"all 1,681,750 impostor comparisons, pair-uniform",-,1bd73acf06c4
+aligned n=24 subject FAR_full_comparison,0.00016649323621227888,rate,analyses/alignment_results.py,"all 1,681,750 comparisons, comparison-uniform",-,1bd73acf06c4
+aligned n=24 subject FAR_independent,1.7940998077392578e-05,rate,analyses/alignment_results.py,"sum_{i<=t} C(n,i)/2^n",-,1bd73acf06c4
+aligned n=24 N_eff,17.789758841449473,bits,analyses/alignment_results.py,p(1-p)/var over aligned impostor HDs,projection 43,1bd73acf06c4
+aligned n=32 probe parity,18,bits,analyses/alignment_results.py,least parity meeting 1.5%,projection 43,1bd73acf06c4
+aligned n=32 probe t,3,errors,analyses/alignment_results.py,delivered capacity,projection 43,1bd73acf06c4
+aligned n=32 probe residual,4.488708073824718,bits,analyses/alignment_results.py,N_eff (aligned impostor HDs) - parity,projection 43,1bd73acf06c4
+aligned n=32 probe closure_pct,100.0,%,analyses/alignment_results.py,"subject-level cluster bootstrap, N_eff per replicate",projection 43; boot 574,1bd73acf06c4
+aligned n=32 probe closure_mixture,"[{""parity"":12,""share"":22.6,""pos"":100.0,""res"":10.3017},{""parity"":18,""share"":77.4,""pos"":100.0,""res"":4.7318}]",json,analyses/alignment_results.py,closure = sum_p share_p * P(res>0 | p),projection 43; boot 574,1bd73acf06c4
+aligned n=32 probe residual_ci95,"[3.4274, 11.3593]",bits,analyses/alignment_results.py,percentile,projection 43; boot 574,1bd73acf06c4
+aligned n=32 probe FAR_sampled,4.5e-05,rate,analyses/alignment_results.py,10^6 sampled trials,far 374,1bd73acf06c4
+aligned n=32 probe FAR_sampled_accepts,45,count,analyses/alignment_results.py,10^6 sampled trials,far 374,1bd73acf06c4
+aligned n=32 probe FAR_full_pair,3.923276459487316e-05,rate,analyses/alignment_results.py,"all 1,681,750 impostor comparisons, pair-uniform",-,1bd73acf06c4
+aligned n=32 probe FAR_full_comparison,3.5082503344730195e-05,rate,analyses/alignment_results.py,"all 1,681,750 comparisons, comparison-uniform",-,1bd73acf06c4
+aligned n=32 probe FAR_independent,1.2780074030160904e-06,rate,analyses/alignment_results.py,"sum_{i<=t} C(n,i)/2^n",-,1bd73acf06c4
+aligned n=32 subject parity,18,bits,analyses/alignment_results.py,least parity meeting 1.5%,projection 43,1bd73acf06c4
+aligned n=32 subject t,3,errors,analyses/alignment_results.py,delivered capacity,projection 43,1bd73acf06c4
+aligned n=32 subject residual,4.488708073824718,bits,analyses/alignment_results.py,N_eff (aligned impostor HDs) - parity,projection 43,1bd73acf06c4
+aligned n=32 subject closure_pct,89.60000000000001,%,analyses/alignment_results.py,"subject-level cluster bootstrap, N_eff per replicate",projection 43; boot 574,1bd73acf06c4
+aligned n=32 subject closure_mixture,"[{""parity"":12,""share"":34.6,""pos"":100.0,""res"":10.6629},{""parity"":18,""share"":55.0,""pos"":100.0,""res"":4.6157},{""parity"":24,""share"":8.6,""pos"":0.0,""res"":-1.3599},{""parity"":27,""share"":1.3,""pos"":0.0,""res"":-4.407},{""parity"":33,""share"":0.5,""pos"":0.0,""res"":-10.2277}]",json,analyses/alignment_results.py,closure = sum_p share_p * P(res>0 | p),projection 43; boot 574,1bd73acf06c4
+aligned n=32 subject residual_ci95,"[-2.458, 11.6338]",bits,analyses/alignment_results.py,percentile,projection 43; boot 574,1bd73acf06c4
+aligned n=32 subject FAR_sampled,4.5e-05,rate,analyses/alignment_results.py,10^6 sampled trials,far 374,1bd73acf06c4
+aligned n=32 subject FAR_sampled_accepts,45,count,analyses/alignment_results.py,10^6 sampled trials,far 374,1bd73acf06c4
+aligned n=32 subject FAR_full_pair,3.923276459487316e-05,rate,analyses/alignment_results.py,"all 1,681,750 impostor comparisons, pair-uniform",-,1bd73acf06c4
+aligned n=32 subject FAR_full_comparison,3.5082503344730195e-05,rate,analyses/alignment_results.py,"all 1,681,750 comparisons, comparison-uniform",-,1bd73acf06c4
+aligned n=32 subject FAR_independent,1.2780074030160904e-06,rate,analyses/alignment_results.py,"sum_{i<=t} C(n,i)/2^n",-,1bd73acf06c4
+aligned n=32 N_eff,22.488708073824718,bits,analyses/alignment_results.py,p(1-p)/var over aligned impostor HDs,projection 43,1bd73acf06c4

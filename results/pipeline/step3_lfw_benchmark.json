@@ -1,0 +1,30 @@
+{
+ "git": {
+  "commit": "1bd73acf06c49a563b255fb28199a448ec66383d",
+  "branch": "main",
+  "deleted_derived": [],
+  "other_changes": [
+   "?? results/pipeline/step1_embed.json",
+   "?? results/pipeline/step2_sweep.json"
+  ],
+  "dev": false
+ },
+ "pairs": 6000,
+ "unique_images": 7701,
+ "embedding_seconds": 737.9,
+ "accuracy_mean_pct": 99.19999999999997,
+ "accuracy_sd_pct": 0.3144660377352207,
+ "per_fold_pct": [
+  99.0,
+  98.66666666666667,
+  99.66666666666667,
+  99.16666666666667,
+  99.0,
+  99.33333333333333,
+  99.0,
+  99.0,
+  99.66666666666667,
+  99.5
+ ],
+ "threshold_mean": 0.18840530514717102
+}

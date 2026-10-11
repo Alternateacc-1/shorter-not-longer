@@ -1,0 +1,38 @@
+{
+ "git": {
+  "commit": "1bd73acf06c49a563b255fb28199a448ec66383d",
+  "branch": "main",
+  "deleted_derived": [],
+  "other_changes": [
+   "?? results/pipeline/step1_embed.json",
+   "?? results/pipeline/step2_sweep.json",
+   "?? results/pipeline/step3_lfw_benchmark.json",
+   "?? results/pipeline/step4_robustness.json",
+   "?? results/pipeline/step5_bound_seeds.json",
+   "?? results/pipeline/step6_alignment.json"
+  ],
+  "dev": false
+ },
+ "embeddings_sha256": "800e163dfdda2f0509bb80627ec0d8db72f337d94a834f9e726d454ddcda625a",
+ "expected_value_files": [
+  "checks/expected/ablation_results.csv",
+  "checks/expected/decode_failure_table_n24.csv",
+  "checks/expected/impostor_neff.csv",
+  "checks/expected/nsweep_results.csv",
+  "checks/expected/seed_sensitivity.csv",
+  "checks/expected/regen_results.json",
+  "checks/expected/short_sweep_canonical.json"
+ ],
+ "verify_canonical": {
+  "returncode": 0,
+  "pass": 290,
+  "fail": 0,
+  "seconds": 183.1
+ },
+ "verify_py": {
+  "returncode": 0,
+  "pass": 219,
+  "fail": 0,
+  "seconds": 520.2
+ }
+}

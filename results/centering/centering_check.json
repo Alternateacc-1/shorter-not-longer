@@ -1,0 +1,1368 @@
+{
+ "git": {
+  "commit": "50522c2b54a3c31c97ba1dc5965758c2a738a95c",
+  "branch": "main"
+ },
+ "lengths": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  32
+ ],
+ "external_images": 800,
+ "external_seed": 7,
+ "external_list_sha256": "5237653ada558f00ea6bacf44bba70f94865bea108f4e707a824ff8aec539ea4",
+ "variants": {
+  "P_corpus_mean": {
+   "rows": {
+    "8": {
+     "neff": 6.95288416627956,
+     "t": {
+      "probe": 1,
+      "capped": 1,
+      "subject": 1
+     },
+     "parity": {
+      "probe": 4,
+      "capped": 4,
+      "subject": 4
+     },
+     "residual": {
+      "probe": 2.95288416627956,
+      "capped": 2.95288416627956,
+      "subject": 2.95288416627956
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 99.5,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.04974119670732932
+    },
+    "9": {
+     "neff": 7.757582874391612,
+     "t": {
+      "probe": 1,
+      "capped": 1,
+      "subject": 1
+     },
+     "parity": {
+      "probe": 4,
+      "capped": 4,
+      "subject": 4
+     },
+     "residual": {
+      "probe": 3.7575828743916118,
+      "capped": 3.7575828743916118,
+      "subject": 3.7575828743916118
+     },
+     "closure_pct": {
+      "probe": 98.5,
+      "capped": 94.19999999999999,
+      "subject": 99.6
+     },
+     "far_full_pair_at_tmax": 0.030274199091733518
+    },
+    "10": {
+     "neff": 8.540956036551616,
+     "t": {
+      "probe": 1,
+      "capped": 1,
+      "subject": 1
+     },
+     "parity": {
+      "probe": 4,
+      "capped": 4,
+      "subject": 4
+     },
+     "residual": {
+      "probe": 4.540956036551616,
+      "capped": 4.540956036551616,
+      "subject": 4.540956036551616
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.018480396830659655
+    },
+    "11": {
+     "neff": 9.280844270165757,
+     "t": {
+      "probe": 1,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 4,
+      "capped": 8,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 5.2808442701657565,
+      "capped": 1.2808442701657565,
+      "subject": 1.2808442701657565
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.04946134614955031
+    },
+    "12": {
+     "neff": 9.98496712961563,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 1.9849671296156295,
+      "capped": 1.9849671296156295,
+      "subject": 1.9849671296156295
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 99.9
+     },
+     "far_full_pair_at_tmax": 0.03239318902708375
+    },
+    "13": {
+     "neff": 10.72014695393883,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 2.72014695393883,
+      "capped": 2.72014695393883,
+      "subject": 2.72014695393883
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.021024757325616705
+    },
+    "14": {
+     "neff": 11.42622281286473,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 3.4262228128647294,
+      "capped": 3.4262228128647294,
+      "subject": 3.4262228128647294
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.013652119508293318
+    },
+    "15": {
+     "neff": 12.124302752111054,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 4.1243027521110545,
+      "capped": 4.1243027521110545,
+      "subject": 4.1243027521110545
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 96.1
+     },
+     "far_full_pair_at_tmax": 0.008771139556141033
+    },
+    "16": {
+     "neff": 12.792225266100845,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 10,
+      "capped": 10,
+      "subject": 15
+     },
+     "residual": {
+      "probe": 2.7922252661008446,
+      "capped": 2.7922252661008446,
+      "subject": -2.2077747338991554
+     },
+     "closure_pct": {
+      "probe": 97.8,
+      "capped": 91.60000000000001,
+      "subject": 48.0
+     },
+     "far_full_pair_at_tmax": 0.02178603876141645
+    },
+    "17": {
+     "neff": 13.48973571682282,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 10,
+      "capped": 10,
+      "subject": 15
+     },
+     "residual": {
+      "probe": 3.4897357168228194,
+      "capped": 3.4897357168228194,
+      "subject": -1.5102642831771806
+     },
+     "closure_pct": {
+      "probe": 90.7,
+      "capped": 83.6,
+      "subject": 44.2
+     },
+     "far_full_pair_at_tmax": 0.01464750547444639
+    },
+    "18": {
+     "neff": 14.139983439677572,
+     "t": {
+      "probe": 2,
+      "capped": 3,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 10,
+      "capped": 15,
+      "subject": 15
+     },
+     "residual": {
+      "probe": 4.139983439677572,
+      "capped": -0.8600165603224283,
+      "subject": -0.8600165603224283
+     },
+     "closure_pct": {
+      "probe": 50.2,
+      "capped": 49.3,
+      "subject": 10.8
+     },
+     "far_full_pair_at_tmax": 0.009810460267798478
+    },
+    "19": {
+     "neff": 14.79236114557463,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 20
+     },
+     "residual": {
+      "probe": -0.20763885442537067,
+      "capped": -0.20763885442537067,
+      "subject": -5.207638854425371
+     },
+     "closure_pct": {
+      "probe": 73.0,
+      "capped": 67.7,
+      "subject": 26.200000000000003
+     },
+     "far_full_pair_at_tmax": 0.05568323691490818
+    },
+    "20": {
+     "neff": 15.427981642936958,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 20
+     },
+     "residual": {
+      "probe": 0.42798164293695784,
+      "capped": 0.42798164293695784,
+      "subject": -4.572018357063042
+     },
+     "closure_pct": {
+      "probe": 94.3,
+      "capped": 90.2,
+      "subject": 44.2
+     },
+     "far_full_pair_at_tmax": 0.040235873704443634
+    },
+    "21": {
+     "neff": 16.061210035553234,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 20
+     },
+     "residual": {
+      "probe": 1.0612100355532341,
+      "capped": 1.0612100355532341,
+      "subject": -3.938789964446766
+     },
+     "closure_pct": {
+      "probe": 98.4,
+      "capped": 93.10000000000001,
+      "subject": 44.3
+     },
+     "far_full_pair_at_tmax": 0.02899444139571465
+    },
+    "22": {
+     "neff": 16.697648393139414,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 20
+     },
+     "residual": {
+      "probe": 1.6976483931394135,
+      "capped": 1.6976483931394135,
+      "subject": -3.3023516068605865
+     },
+     "closure_pct": {
+      "probe": 98.2,
+      "capped": 92.10000000000001,
+      "subject": 41.5
+     },
+     "far_full_pair_at_tmax": 0.020679853902299886
+    },
+    "23": {
+     "neff": 17.30629168512731,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 20
+     },
+     "residual": {
+      "probe": 2.3062916851273094,
+      "capped": 2.3062916851273094,
+      "subject": -2.6937083148726906
+     },
+     "closure_pct": {
+      "probe": 91.7,
+      "capped": 85.0,
+      "subject": 32.1
+     },
+     "far_full_pair_at_tmax": 0.014636131027035615
+    },
+    "24": {
+     "neff": 17.937572729894395,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 20
+     },
+     "residual": {
+      "probe": 2.937572729894395,
+      "capped": 2.937572729894395,
+      "subject": -2.062427270105605
+     },
+     "closure_pct": {
+      "probe": 69.0,
+      "capped": 71.5,
+      "subject": 23.0
+     },
+     "far_full_pair_at_tmax": 0.010424044893534937
+    },
+    "32": {
+     "neff": 22.671476276553545,
+     "t": {
+      "probe": 5,
+      "capped": 5,
+      "subject": 6
+     },
+     "parity": {
+      "probe": 27,
+      "capped": 27,
+      "subject": 33
+     },
+     "residual": {
+      "probe": -4.328523723446455,
+      "capped": -4.328523723446455,
+      "subject": -10.328523723446455
+     },
+     "closure_pct": {
+      "probe": 0.0,
+      "capped": 0.0,
+      "subject": 0.0
+     },
+     "far_full_pair_at_tmax": 0.0020349536760235582
+    }
+   },
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "rule_selects": 15
+  },
+  "E_enrollment_mean": {
+   "rows": {
+    "8": {
+     "neff": 7.118745107061783,
+     "t": {
+      "probe": 1,
+      "capped": 1,
+      "subject": 1
+     },
+     "parity": {
+      "probe": 4,
+      "capped": 4,
+      "subject": 4
+     },
+     "residual": {
+      "probe": 3.118745107061783,
+      "capped": 3.118745107061783,
+      "subject": 3.118745107061783
+     },
+     "closure_pct": {
+      "probe": 99.2,
+      "capped": 96.7,
+      "subject": 99.1
+     },
+     "far_full_pair_at_tmax": 0.04329406693705096
+    },
+    "9": {
+     "neff": 7.924885657832,
+     "t": {
+      "probe": 1,
+      "capped": 1,
+      "subject": 1
+     },
+     "parity": {
+      "probe": 4,
+      "capped": 4,
+      "subject": 4
+     },
+     "residual": {
+      "probe": 3.924885657832,
+      "capped": 3.924885657832,
+      "subject": 3.924885657832
+     },
+     "closure_pct": {
+      "probe": 93.30000000000001,
+      "capped": 80.0,
+      "subject": 80.9
+     },
+     "far_full_pair_at_tmax": 0.025968843750616283
+    },
+    "10": {
+     "neff": 8.703795475625935,
+     "t": {
+      "probe": 1,
+      "capped": 1,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 4,
+      "capped": 4,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 4.703795475625935,
+      "capped": 4.703795475625935,
+      "subject": 0.7037954756259346
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.06671380638558003
+    },
+    "11": {
+     "neff": 9.478469408999327,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 1.4784694089993273,
+      "capped": 1.4784694089993273,
+      "subject": 1.4784694089993273
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 92.30000000000001
+     },
+     "far_full_pair_at_tmax": 0.04317213480821107
+    },
+    "12": {
+     "neff": 10.23415124731658,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 2.2341512473165803,
+      "capped": 2.2341512473165803,
+      "subject": 2.2341512473165803
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 99.9
+     },
+     "far_full_pair_at_tmax": 0.027784292525637175
+    },
+    "13": {
+     "neff": 11.011658250640611,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 3.011658250640611,
+      "capped": 3.011658250640611,
+      "subject": 3.011658250640611
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.01757734715817841
+    },
+    "14": {
+     "neff": 11.765261167448871,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 3.7652611674488714,
+      "capped": 3.7652611674488714,
+      "subject": 3.7652611674488714
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.011148738189081478
+    },
+    "15": {
+     "neff": 12.473873783178215,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 10
+     },
+     "residual": {
+      "probe": 4.473873783178215,
+      "capped": 4.473873783178215,
+      "subject": 2.473873783178215
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.027038498344020487
+    },
+    "16": {
+     "neff": 13.214428846177524,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 10,
+      "capped": 10,
+      "subject": 15
+     },
+     "residual": {
+      "probe": 3.2144288461775243,
+      "capped": 3.2144288461775243,
+      "subject": -1.7855711538224757
+     },
+     "closure_pct": {
+      "probe": 97.0,
+      "capped": 89.5,
+      "subject": 45.7
+     },
+     "far_full_pair_at_tmax": 0.018215743586588368
+    },
+    "17": {
+     "neff": 13.910337181691162,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 10,
+      "capped": 10,
+      "subject": 15
+     },
+     "residual": {
+      "probe": 3.910337181691162,
+      "capped": 3.910337181691162,
+      "subject": -1.0896628183088382
+     },
+     "closure_pct": {
+      "probe": 93.0,
+      "capped": 89.0,
+      "subject": 42.8
+     },
+     "far_full_pair_at_tmax": 0.01205550726144126
+    },
+    "18": {
+     "neff": 14.6006702553369,
+     "t": {
+      "probe": 2,
+      "capped": 3,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 10,
+      "capped": 15,
+      "subject": 15
+     },
+     "residual": {
+      "probe": 4.600670255336899,
+      "capped": -0.3993297446631008,
+      "subject": -0.3993297446631008
+     },
+     "closure_pct": {
+      "probe": 65.0,
+      "capped": 50.0,
+      "subject": 22.900000000000002
+     },
+     "far_full_pair_at_tmax": 0.007999886279603154
+    },
+    "19": {
+     "neff": 15.28865870476094,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 15
+     },
+     "residual": {
+      "probe": 0.28865870476093924,
+      "capped": 0.28865870476093924,
+      "subject": 0.28865870476093924
+     },
+     "closure_pct": {
+      "probe": 98.5,
+      "capped": 92.7,
+      "subject": 93.89999999999999
+     },
+     "far_full_pair_at_tmax": 0.005275953557387356
+    },
+    "20": {
+     "neff": 16.002312372060874,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 15
+     },
+     "residual": {
+      "probe": 1.0023123720608744,
+      "capped": 1.0023123720608744,
+      "subject": 1.0023123720608744
+     },
+     "closure_pct": {
+      "probe": 97.8,
+      "capped": 91.8,
+      "subject": 94.0
+     },
+     "far_full_pair_at_tmax": 0.0034169976973411798
+    },
+    "21": {
+     "neff": 16.653921898152078,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 15
+     },
+     "residual": {
+      "probe": 1.6539218981520776,
+      "capped": 1.6539218981520776,
+      "subject": 1.6539218981520776
+     },
+     "closure_pct": {
+      "probe": 96.1,
+      "capped": 85.1,
+      "subject": 93.2
+     },
+     "far_full_pair_at_tmax": 0.002211001437206579
+    },
+    "22": {
+     "neff": 17.313662281140793,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 20
+     },
+     "residual": {
+      "probe": 2.313662281140793,
+      "capped": 2.313662281140793,
+      "subject": -2.686337718859207
+     },
+     "closure_pct": {
+      "probe": 91.3,
+      "capped": 64.8,
+      "subject": 51.1
+     },
+     "far_full_pair_at_tmax": 0.016935461644601003
+    },
+    "23": {
+     "neff": 17.95748610182293,
+     "t": {
+      "probe": 3,
+      "capped": 5,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 20,
+      "subject": 20
+     },
+     "residual": {
+      "probe": 2.95748610182293,
+      "capped": -2.04251389817707,
+      "subject": -2.04251389817707
+     },
+     "closure_pct": {
+      "probe": 75.3,
+      "capped": 49.6,
+      "subject": 24.0
+     },
+     "far_full_pair_at_tmax": 0.011917892979964704
+    },
+    "24": {
+     "neff": 18.609367064477762,
+     "t": {
+      "probe": 3,
+      "capped": 5,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 20,
+      "subject": 20
+     },
+     "residual": {
+      "probe": 3.6093670644777625,
+      "capped": -1.3906329355222375,
+      "subject": -1.3906329355222375
+     },
+     "closure_pct": {
+      "probe": 61.1,
+      "capped": 32.5,
+      "subject": 17.0
+     },
+     "far_full_pair_at_tmax": 0.008343858825459143
+    },
+    "32": {
+     "neff": 23.53852442874189,
+     "t": {
+      "probe": 5,
+      "capped": 6,
+      "subject": 6
+     },
+     "parity": {
+      "probe": 27,
+      "capped": 33,
+      "subject": 33
+     },
+     "residual": {
+      "probe": -3.4614755712581093,
+      "capped": -9.46147557125811,
+      "subject": -9.46147557125811
+     },
+     "closure_pct": {
+      "probe": 0.2,
+      "capped": 0.0,
+      "subject": 0.0
+     },
+     "far_full_pair_at_tmax": 0.001571388569193093
+    }
+   },
+   "eligible": [
+    8,
+    10,
+    12,
+    13,
+    14,
+    15
+   ],
+   "rule_selects": 14
+  },
+  "X_external_mean": {
+   "rows": {
+    "8": {
+     "neff": 7.145899415741097,
+     "t": {
+      "probe": 1,
+      "capped": 1,
+      "subject": 1
+     },
+     "parity": {
+      "probe": 4,
+      "capped": 4,
+      "subject": 4
+     },
+     "residual": {
+      "probe": 3.1458994157410967,
+      "capped": 3.1458994157410967,
+      "subject": 3.1458994157410967
+     },
+     "closure_pct": {
+      "probe": 99.8,
+      "capped": 99.7,
+      "subject": 96.8
+     },
+     "far_full_pair_at_tmax": 0.04584401482423392
+    },
+    "9": {
+     "neff": 7.951226024598001,
+     "t": {
+      "probe": 1,
+      "capped": 1,
+      "subject": 1
+     },
+     "parity": {
+      "probe": 4,
+      "capped": 4,
+      "subject": 4
+     },
+     "residual": {
+      "probe": 3.951226024598001,
+      "capped": 3.951226024598001,
+      "subject": 3.951226024598001
+     },
+     "closure_pct": {
+      "probe": 97.2,
+      "capped": 94.5,
+      "subject": 93.8
+     },
+     "far_full_pair_at_tmax": 0.027709005280782364
+    },
+    "10": {
+     "neff": 8.726052669193841,
+     "t": {
+      "probe": 1,
+      "capped": 1,
+      "subject": 1
+     },
+     "parity": {
+      "probe": 4,
+      "capped": 4,
+      "subject": 4
+     },
+     "residual": {
+      "probe": 4.726052669193841,
+      "capped": 4.726052669193841,
+      "subject": 4.726052669193841
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.016830174401195226
+    },
+    "11": {
+     "neff": 9.51682588315041,
+     "t": {
+      "probe": 1,
+      "capped": 2,
+      "subject": 1
+     },
+     "parity": {
+      "probe": 4,
+      "capped": 8,
+      "subject": 4
+     },
+     "residual": {
+      "probe": 5.5168258831504104,
+      "capped": 1.5168258831504104,
+      "subject": 5.5168258831504104
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 99.9
+     },
+     "far_full_pair_at_tmax": 0.04581365540481322
+    },
+    "12": {
+     "neff": 10.277093348426064,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 1
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 4
+     },
+     "residual": {
+      "probe": 2.277093348426064,
+      "capped": 2.277093348426064,
+      "subject": 6.277093348426064
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.029699408283888232
+    },
+    "13": {
+     "neff": 11.04025983451782,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 3.040259834517819,
+      "capped": 3.040259834517819,
+      "subject": 3.040259834517819
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.019158448542654218
+    },
+    "14": {
+     "neff": 11.775547528000464,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 3.7755475280004642,
+      "capped": 3.7755475280004642,
+      "subject": 3.7755475280004642
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.01231468849921241
+    },
+    "15": {
+     "neff": 12.510339388998228,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 8,
+      "capped": 8,
+      "subject": 8
+     },
+     "residual": {
+      "probe": 4.5103393889982275,
+      "capped": 4.5103393889982275,
+      "subject": 4.5103393889982275
+     },
+     "closure_pct": {
+      "probe": 100.0,
+      "capped": 100.0,
+      "subject": 100.0
+     },
+     "far_full_pair_at_tmax": 0.007940891953051202
+    },
+    "16": {
+     "neff": 13.197139933499058,
+     "t": {
+      "probe": 2,
+      "capped": 2,
+      "subject": 2
+     },
+     "parity": {
+      "probe": 10,
+      "capped": 10,
+      "subject": 10
+     },
+     "residual": {
+      "probe": 3.1971399334990576,
+      "capped": 3.1971399334990576,
+      "subject": 3.1971399334990576
+     },
+     "closure_pct": {
+      "probe": 96.5,
+      "capped": 94.39999999999999,
+      "subject": 65.2
+     },
+     "far_full_pair_at_tmax": 0.005128171433037927
+    },
+    "17": {
+     "neff": 13.91590173932076,
+     "t": {
+      "probe": 2,
+      "capped": 3,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 10,
+      "capped": 15,
+      "subject": 15
+     },
+     "residual": {
+      "probe": 3.915901739320759,
+      "capped": -1.0840982606792409,
+      "subject": -1.0840982606792409
+     },
+     "closure_pct": {
+      "probe": 76.7,
+      "capped": 47.9,
+      "subject": 18.5
+     },
+     "far_full_pair_at_tmax": 0.01325936374606486
+    },
+    "18": {
+     "neff": 14.6332811829646,
+     "t": {
+      "probe": 2,
+      "capped": 3,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 10,
+      "capped": 15,
+      "subject": 15
+     },
+     "residual": {
+      "probe": 4.6332811829646,
+      "capped": -0.3667188170353999,
+      "subject": -0.3667188170353999
+     },
+     "closure_pct": {
+      "probe": 70.5,
+      "capped": 43.4,
+      "subject": 15.5
+     },
+     "far_full_pair_at_tmax": 0.008867442126585991
+    },
+    "19": {
+     "neff": 15.28712273367097,
+     "t": {
+      "probe": 2,
+      "capped": 3,
+      "subject": 3
+     },
+     "parity": {
+      "probe": 10,
+      "capped": 15,
+      "subject": 15
+     },
+     "residual": {
+      "probe": 5.287122733670969,
+      "capped": 0.2871227336709694,
+      "subject": 0.2871227336709694
+     },
+     "closure_pct": {
+      "probe": 99.0,
+      "capped": 96.39999999999999,
+      "subject": 72.0
+     },
+     "far_full_pair_at_tmax": 0.00593016426869606
+    },
+    "20": {
+     "neff": 15.928266186784642,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 20
+     },
+     "residual": {
+      "probe": 0.9282661867846418,
+      "capped": 0.9282661867846418,
+      "subject": -4.071733813215358
+     },
+     "closure_pct": {
+      "probe": 98.0,
+      "capped": 88.1,
+      "subject": 39.4
+     },
+     "far_full_pair_at_tmax": 0.03703761767562004
+    },
+    "21": {
+     "neff": 16.611047830793353,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 20
+     },
+     "residual": {
+      "probe": 1.6110478307933533,
+      "capped": 1.6110478307933533,
+      "subject": -3.3889521692066467
+     },
+     "closure_pct": {
+      "probe": 95.39999999999999,
+      "capped": 80.2,
+      "subject": 21.099999999999998
+     },
+     "far_full_pair_at_tmax": 0.026446596576355237
+    },
+    "22": {
+     "neff": 17.31905242531857,
+     "t": {
+      "probe": 3,
+      "capped": 3,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 15,
+      "subject": 20
+     },
+     "residual": {
+      "probe": 2.3190524253185707,
+      "capped": 2.3190524253185707,
+      "subject": -2.6809475746814293
+     },
+     "closure_pct": {
+      "probe": 88.9,
+      "capped": 70.7,
+      "subject": 18.2
+     },
+     "far_full_pair_at_tmax": 0.01878755393307363
+    },
+    "23": {
+     "neff": 17.978979474227685,
+     "t": {
+      "probe": 3,
+      "capped": 5,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 15,
+      "capped": 20,
+      "subject": 20
+     },
+     "residual": {
+      "probe": 2.9789794742276854,
+      "capped": -2.0210205257723146,
+      "subject": -2.0210205257723146
+     },
+     "closure_pct": {
+      "probe": 74.2,
+      "capped": 49.4,
+      "subject": 13.5
+     },
+     "far_full_pair_at_tmax": 0.01344015995974135
+    },
+    "24": {
+     "neff": 18.640693857781393,
+     "t": {
+      "probe": 5,
+      "capped": 5,
+      "subject": 5
+     },
+     "parity": {
+      "probe": 20,
+      "capped": 20,
+      "subject": 20
+     },
+     "residual": {
+      "probe": -1.3593061422186068,
+      "capped": -1.3593061422186068,
+      "subject": -1.3593061422186068
+     },
+     "closure_pct": {
+      "probe": 47.099999999999994,
+      "capped": 26.3,
+      "subject": 7.7
+     },
+     "far_full_pair_at_tmax": 0.009392645489999775
+    },
+    "32": {
+     "neff": 23.628745317359893,
+     "t": {
+      "probe": 5,
+      "capped": 5,
+      "subject": 6
+     },
+     "parity": {
+      "probe": 27,
+      "capped": 27,
+      "subject": 33
+     },
+     "residual": {
+      "probe": -3.3712546826401066,
+      "capped": -3.3712546826401066,
+      "subject": -9.371254682640107
+     },
+     "closure_pct": {
+      "probe": 1.0999999999999999,
+      "capped": 0.5,
+      "subject": 0.3
+     },
+     "far_full_pair_at_tmax": 0.0018082813061254784
+    }
+   },
+   "eligible": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "rule_selects": 15
+  }
+ }
+}

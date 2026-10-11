@@ -1,0 +1,436 @@
+quantity,value,units,script,function,seeds,commit
+w0 label drop2 images,5423,count,analyses/label_errors.py,images after removal,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 band edge,20,n,analyses/label_errors.py,longest measured n with subject residual > 0,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 bound positive both weightings,True,bool,analyses/label_errors.py,mean and min > 0,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 N_eff,7.758017548433744,bits,analyses/label_errors.py,p(1-p)/var over impostor HDs,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 probe beta,0.008703895208548775,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 probe t,1,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 probe parity,4,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 probe decode_fail,0.009307135470527405,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 probe residual,3.7580175484337444,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 capped beta,0.007515387107223843,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 capped t,1,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 capped parity,4,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 capped decode_fail,0.009329446064139942,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 capped residual,3.7580175484337444,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 subject beta,0.00793281996342995,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 subject t,1,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 subject parity,4,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 subject decode_fail,0.007798042474493153,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 subject residual,3.7580175484337444,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 probe closure_pct,99.4,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 subject closure_pct,99.8,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 frr_mean,0.007798042474493153,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 frr_median,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 frr_p90,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 frr_p99,0.2,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 frr_max,0.5,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 frr_n_gt_5pct,15,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=9 frr_n_gt_10pct,7,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 N_eff,12.11988519132787,bits,analyses/label_errors.py,p(1-p)/var over impostor HDs,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 probe beta,0.010789382971389176,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 probe t,2,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 probe parity,8,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 probe decode_fail,0.00904860392967942,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 probe residual,4.119885191327869,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 capped beta,0.010962099125364432,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 capped t,2,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 capped parity,8,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 capped decode_fail,0.007580174927113703,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 capped residual,4.119885191327869,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 subject beta,0.013491058190779717,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 subject t,2,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 subject parity,8,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 subject decode_fail,0.011555111392196506,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 subject residual,4.119885191327869,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 probe closure_pct,100.0,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 subject closure_pct,97.0,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 frr_mean,0.011555111392196506,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 frr_median,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 frr_p90,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 frr_p99,0.23928571428571185,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 frr_max,1.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 frr_n_gt_5pct,16,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=15 frr_n_gt_10pct,6,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 N_eff,17.932121353040728,bits,analyses/label_errors.py,p(1-p)/var over impostor HDs,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 probe beta,0.015231816614960357,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 probe t,3,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 probe parity,15,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 probe decode_fail,0.013185108583247156,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 probe residual,2.9321213530407277,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 capped beta,0.01467444120505345,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 capped t,3,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 capped parity,15,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 capped decode_fail,0.012244897959183673,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 capped residual,2.9321213530407277,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 subject beta,0.016740626218936076,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 subject t,5,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 subject parity,20,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 subject decode_fail,0.0068826261601722385,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 subject residual,-2.0678786469592723,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 probe closure_pct,76.8,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 subject closure_pct,25.6,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 frr_mean,0.018327825042980184,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 frr_median,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 frr_p90,0.023255813953488372,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 frr_p99,0.48333333333332956,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 frr_max,1.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 frr_n_gt_5pct,26,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2 n=24 frr_n_gt_10pct,11,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 images,5421,count,analyses/label_errors.py,images after removal,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 band edge,20,n,analyses/label_errors.py,longest measured n with subject residual > 0,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 bound positive both weightings,True,bool,analyses/label_errors.py,mean and min > 0,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 N_eff,7.758485865331613,bits,analyses/label_errors.py,p(1-p)/var over impostor HDs,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 probe beta,0.008449732712536644,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 probe t,1,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 probe parity,4,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 probe decode_fail,0.008535954474909468,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 probe residual,3.758485865331613,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 capped beta,0.007580174927113702,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 capped t,1,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 capped parity,4,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 capped decode_fail,0.009329446064139942,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 capped residual,3.758485865331613,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 subject beta,0.007744358953121404,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 subject t,1,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 subject parity,4,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 subject decode_fail,0.007356092810683979,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 subject residual,3.758485865331613,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 probe closure_pct,99.9,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 subject closure_pct,99.9,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 frr_mean,0.007356092810683982,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 frr_median,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 frr_p90,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 frr_p99,0.2,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 frr_max,0.5,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 frr_n_gt_5pct,13,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=9 frr_n_gt_10pct,7,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 N_eff,12.121571824104441,bits,analyses/label_errors.py,p(1-p)/var over impostor HDs,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 probe beta,0.010553543714433523,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 probe t,2,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 probe parity,8,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 probe decode_fail,0.008535954474909468,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 probe residual,4.121571824104441,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 capped beta,0.010962099125364432,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 capped t,2,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 capped parity,8,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 capped decode_fail,0.007580174927113703,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 capped residual,4.121571824104441,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 subject beta,0.013315173461922649,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 subject t,2,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 subject parity,8,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 subject decode_fail,0.011136294347693816,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 subject residual,4.121571824104441,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 probe closure_pct,100.0,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 subject closure_pct,98.0,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 frr_mean,0.011136294347693818,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 frr_median,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 frr_p90,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 frr_p99,0.23928571428571185,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 frr_max,1.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 frr_n_gt_5pct,14,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=15 frr_n_gt_10pct,6,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 N_eff,17.936833655093537,bits,analyses/label_errors.py,p(1-p)/var over impostor HDs,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 probe beta,0.014970253491981375,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 probe t,3,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 probe parity,15,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 probe decode_fail,0.012415933781686497,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 probe residual,2.9368336550935368,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 capped beta,0.014601554907677358,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 capped t,3,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 capped parity,15,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 capped decode_fail,0.012244897959183673,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 capped residual,2.9368336550935368,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 subject beta,0.016516627748870662,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 subject t,5,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 subject parity,20,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 subject decode_fail,0.006463809115669549,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 subject residual,-2.0631663449064632,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 probe closure_pct,86.0,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 subject closure_pct,28.299999999999997,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 frr_mean,0.01788587537917101,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 frr_median,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 frr_p90,0.02127659574468085,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 frr_p99,0.48333333333332956,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 frr_max,1.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 frr_n_gt_5pct,24,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4 n=24 frr_n_gt_10pct,11,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean images,5423,count,analyses/label_errors.py,images after removal,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean band edge,20,n,analyses/label_errors.py,longest measured n with subject residual > 0,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 bound positive both weightings,True,bool,analyses/label_errors.py,mean and min > 0,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 N_eff,7.757443557614647,bits,analyses/label_errors.py,p(1-p)/var over impostor HDs,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 probe beta,0.008646443755027003,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 probe t,1,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 probe parity,4,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 probe decode_fail,0.009307135470527405,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 probe residual,3.757443557614647,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 capped beta,0.007515387107223843,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 capped t,1,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 capped parity,4,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 capped decode_fail,0.009329446064139942,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 capped residual,3.757443557614647,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 subject beta,0.007917490013333986,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 subject t,1,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 subject parity,4,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 subject decode_fail,0.007798042474493153,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 subject residual,3.757443557614647,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 probe closure_pct,99.4,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 subject closure_pct,99.8,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 frr_mean,0.007798042474493153,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 frr_median,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 frr_p90,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 frr_p99,0.2,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 frr_max,0.5,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 frr_n_gt_5pct,15,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=9 frr_n_gt_10pct,7,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 N_eff,12.124195142171647,bits,analyses/label_errors.py,p(1-p)/var over impostor HDs,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 probe beta,0.010772147535332644,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 probe t,2,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 probe parity,8,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 probe decode_fail,0.00904860392967942,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 probe residual,4.124195142171647,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 capped beta,0.010962099125364432,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 capped t,2,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 capped parity,8,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 capped decode_fail,0.007580174927113703,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 capped residual,4.124195142171647,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 subject beta,0.01348340239534257,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 subject t,2,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 subject parity,8,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 subject decode_fail,0.011555111392196506,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 subject residual,4.124195142171647,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 probe closure_pct,100.0,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 subject closure_pct,97.0,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 frr_mean,0.011555111392196506,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 frr_median,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 frr_p90,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 frr_p99,0.23928571428571185,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 frr_max,1.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 frr_n_gt_5pct,16,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=15 frr_n_gt_10pct,6,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 N_eff,17.938151447189266,bits,analyses/label_errors.py,p(1-p)/var over impostor HDs,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 probe beta,0.015210272319889693,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 probe t,3,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 probe parity,15,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 probe decode_fail,0.013185108583247156,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 probe residual,2.9381514471892665,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 capped beta,0.014650145772594754,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 capped t,3,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 capped parity,15,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 capped decode_fail,0.012244897959183673,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 capped residual,2.9381514471892665,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 subject beta,0.016729142525780356,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 subject t,5,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 subject parity,20,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 subject decode_fail,0.0068826261601722385,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 subject residual,-2.0618485528107335,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 probe closure_pct,76.8,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 subject closure_pct,25.6,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 frr_mean,0.018327825042980184,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 frr_median,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 frr_p90,0.023255813953488372,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 frr_p99,0.48333333333332956,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 frr_max,1.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 frr_n_gt_5pct,26,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop2_fixedmean n=24 frr_n_gt_10pct,11,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean images,5421,count,analyses/label_errors.py,images after removal,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean band edge,20,n,analyses/label_errors.py,longest measured n with subject residual > 0,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 bound positive both weightings,True,bool,analyses/label_errors.py,mean and min > 0,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 N_eff,7.75730154638099,bits,analyses/label_errors.py,p(1-p)/var over impostor HDs,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 probe beta,0.008420992125079038,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 probe t,1,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 probe parity,4,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 probe decode_fail,0.008794619762027936,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 probe residual,3.7573015463809902,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 capped beta,0.007515387107223843,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 capped t,1,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 capped parity,4,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 capped decode_fail,0.009329446064139942,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 capped residual,3.7573015463809902,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 subject beta,0.007729472684215842,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 subject t,1,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 subject parity,4,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 subject decode_fail,0.007379225429990463,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 subject residual,3.7573015463809902,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 probe closure_pct,99.9,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 subject closure_pct,99.9,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 frr_mean,0.007379225429990466,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 frr_median,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 frr_p90,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 frr_p99,0.2,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 frr_max,0.5,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 frr_n_gt_5pct,13,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=9 frr_n_gt_10pct,7,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 N_eff,12.124107112217136,bits,analyses/label_errors.py,p(1-p)/var over impostor HDs,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 probe beta,0.010570788066908088,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 probe t,2,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 probe parity,8,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 probe decode_fail,0.008535954474909468,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 probe residual,4.1241071122171356,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 capped beta,0.010962099125364432,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 capped t,2,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 capped parity,8,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 capped decode_fail,0.007580174927113703,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 capped residual,4.1241071122171356,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 subject beta,0.013316715636543082,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 subject t,2,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 subject parity,8,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 subject decode_fail,0.011136294347693816,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 subject residual,4.1241071122171356,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 probe closure_pct,100.0,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 subject closure_pct,98.0,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 frr_mean,0.011136294347693818,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 frr_median,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 frr_p90,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 frr_p99,0.23928571428571185,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 frr_max,1.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 frr_n_gt_5pct,14,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=15 frr_n_gt_10pct,6,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 N_eff,17.938104810954457,bits,analyses/label_errors.py,p(1-p)/var over impostor HDs,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 probe beta,0.015013364373167788,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 probe t,3,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 probe parity,15,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 probe decode_fail,0.012674599068804967,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 probe residual,2.9381048109544565,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 capped beta,0.014650145772594754,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 capped t,3,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 capped parity,15,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 capped decode_fail,0.012244897959183673,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 capped residual,2.9381048109544565,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 subject beta,0.01656768015453455,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 subject t,5,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 subject parity,20,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 subject decode_fail,0.006463809115669549,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 subject residual,-2.0618951890455435,-,analyses/label_errors.py,crosscheck.Length,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 probe closure_pct,83.39999999999999,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 subject closure_pct,28.299999999999997,%,analyses/label_errors.py,"1,000 replicates, N_eff per replicate",projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 frr_mean,0.017909007998477496,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 frr_median,0.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 frr_p90,0.02127659574468085,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 frr_p99,0.48333333333332956,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 frr_max,1.0,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 frr_n_gt_5pct,24,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label drop4_fixedmean n=24 frr_n_gt_10pct,11,-,analyses/label_errors.py,per-subject decode failure at the probe-weighted t,projection 43; boot 542+n,1bd73acf06c4
+w0 label verdict,CHANGE,-,analyses/label_errors.py,"any t, parity, residual sign, band edge or n=9 bound change",projection 43; boot 542+n,1bd73acf06c4
+w0 label base n=20 subject_fail_t3,0.015313630321994674,-,analyses/label_errors_n20.py,"crosscheck.Length, n=20",projection 43; boot 562,1bd73acf06c4
+w0 label base n=20 closure_subject_pct,44.2,-,analyses/label_errors_n20.py,"crosscheck.Length, n=20",projection 43; boot 562,1bd73acf06c4
+w0 label drop2 n=20 subject_fail_t3,0.014932312818490672,-,analyses/label_errors_n20.py,"crosscheck.Length, n=20",projection 43; boot 562,1bd73acf06c4
+w0 label drop2 n=20 closure_subject_pct,46.1,-,analyses/label_errors_n20.py,"crosscheck.Length, n=20",projection 43; boot 562,1bd73acf06c4
+w0 label drop4 n=20 subject_fail_t3,0.014513495773987986,-,analyses/label_errors_n20.py,"crosscheck.Length, n=20",projection 43; boot 562,1bd73acf06c4
+w0 label drop4 n=20 closure_subject_pct,49.0,-,analyses/label_errors_n20.py,"crosscheck.Length, n=20",projection 43; boot 562,1bd73acf06c4
+w0 centre n=15 subject t,2,errors,analyses/table_values.py,"least parity meeting 1.5%, subject weighting",projection 43,1bd73acf06c4
+w0 centre n=15 subject FAR_full_pair,0.008771139556141032,rate,analyses/table_values.py,"all 1,681,750 impostor comparisons, pair-uniform",projection 43,1bd73acf06c4
+w0 centre n=15 subject FAR_full_comparison,0.007712204548833061,rate,analyses/table_values.py,comparison-uniform,projection 43,1bd73acf06c4
+w0 centre n=15 subject FAR_sampled,0.008777,rate,analyses/table_values.py,10^6 sampled trials,far 357,1bd73acf06c4
+w0 centre n=24 subject t,5,errors,analyses/table_values.py,"least parity meeting 1.5%, subject weighting",projection 43,1bd73acf06c4
+w0 centre n=24 subject FAR_full_pair,0.010424044893534936,rate,analyses/table_values.py,"all 1,681,750 impostor comparisons, pair-uniform",projection 43,1bd73acf06c4
+w0 centre n=24 subject FAR_full_comparison,0.009141073286754868,rate,analyses/table_values.py,comparison-uniform,projection 43,1bd73acf06c4
+w0 centre n=24 subject FAR_sampled,0.010442,rate,analyses/table_values.py,10^6 sampled trials,far 366,1bd73acf06c4
+w0 centre n=32 subject t,6,errors,analyses/table_values.py,"least parity meeting 1.5%, subject weighting",projection 43,1bd73acf06c4
+w0 centre n=32 subject FAR_full_pair,0.002034953676023556,rate,analyses/table_values.py,"all 1,681,750 impostor comparisons, pair-uniform",projection 43,1bd73acf06c4
+w0 centre n=32 subject FAR_full_comparison,0.0017356919875130073,rate,analyses/table_values.py,comparison-uniform,projection 43,1bd73acf06c4
+w0 centre n=32 subject FAR_sampled,0.002114,rate,analyses/table_values.py,10^6 sampled trials,far 374,1bd73acf06c4
+w0 throughput target=0.01 deployed probe decode_fail,0.0049095607235142115,fraction,analyses/table_values.py,"probe-weighted failure of the subject-weighted code (n=15, t=3)",projection 43,1bd73acf06c4
+w0 throughput target=0.01 ppm,62.6906976744186,people/min,analyses/table_values.py,"63 x (1 - f), three lanes, serial model",projection 43,1bd73acf06c4
+w0 throughput target=0.01 floor ppm,62.37,people/min,analyses/table_values.py,63 x (1 - target),projection 43,1bd73acf06c4
+w0 throughput target=0.015 deployed probe decode_fail,0.009560723514211887,fraction,analyses/table_values.py,"probe-weighted failure of the subject-weighted code (n=15, t=2)",projection 43,1bd73acf06c4
+w0 throughput target=0.015 ppm,62.39767441860465,people/min,analyses/table_values.py,"63 x (1 - f), three lanes, serial model",projection 43,1bd73acf06c4
+w0 throughput target=0.015 floor ppm,62.055,people/min,analyses/table_values.py,63 x (1 - target),projection 43,1bd73acf06c4
+w0 throughput target=0.02 deployed probe decode_fail,0.013695090439276485,fraction,analyses/table_values.py,"probe-weighted failure of the subject-weighted code (n=24, t=3)",projection 43,1bd73acf06c4
+w0 throughput target=0.02 ppm,62.13720930232558,people/min,analyses/table_values.py,"63 x (1 - f), three lanes, serial model",projection 43,1bd73acf06c4
+w0 throughput target=0.02 floor ppm,61.74,people/min,analyses/table_values.py,63 x (1 - target),projection 43,1bd73acf06c4
+w0 throughput target=0.03 deployed probe decode_fail,0.013695090439276485,fraction,analyses/table_values.py,"probe-weighted failure of the subject-weighted code (n=24, t=3)",projection 43,1bd73acf06c4
+w0 throughput target=0.03 ppm,62.13720930232558,people/min,analyses/table_values.py,"63 x (1 - f), three lanes, serial model",projection 43,1bd73acf06c4
+w0 throughput target=0.03 floor ppm,61.11,people/min,analyses/table_values.py,63 x (1 - target),projection 43,1bd73acf06c4
+w0 studied lengths,"[8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,32,40,48,56,64]",list,analyses/table_values.py,every n with an 'm n=' row in manifest.csv,-,1bd73acf06c4
+w0 projection seeds,"[43,101,202,303,404]",list,analyses/table_values.py,every seed with a 'seedNNN n=15 beta' row in manifest.csv,-,1bd73acf06c4
+w1 label drop2 n=20 probe t,3,-,analyses/label_errors.py,label_errors.json drop2 lengths[20][probe][t],projection 43,1bd73acf06c4
+w1 label drop2 n=20 probe parity,15,-,analyses/label_errors.py,label_errors.json drop2 lengths[20][probe][parity],projection 43,1bd73acf06c4
+w1 label drop2 n=20 probe residual,0.4235107263936193,bits,analyses/label_errors.py,label_errors.json drop2 lengths[20][probe][residual],projection 43,1bd73acf06c4
+w1 label drop2 n=20 capped t,3,-,analyses/label_errors.py,label_errors.json drop2 lengths[20][capped][t],projection 43,1bd73acf06c4
+w1 label drop2 n=20 capped parity,15,-,analyses/label_errors.py,label_errors.json drop2 lengths[20][capped][parity],projection 43,1bd73acf06c4
+w1 label drop2 n=20 capped residual,0.4235107263936193,bits,analyses/label_errors.py,label_errors.json drop2 lengths[20][capped][residual],projection 43,1bd73acf06c4
+w1 label drop2 n=20 subject t,3,-,analyses/label_errors.py,label_errors.json drop2 lengths[20][subject][t],projection 43,1bd73acf06c4
+w1 label drop2 n=20 subject parity,15,-,analyses/label_errors.py,label_errors.json drop2 lengths[20][subject][parity],projection 43,1bd73acf06c4
+w1 label drop2 n=20 subject residual,0.4235107263936193,bits,analyses/label_errors.py,label_errors.json drop2 lengths[20][subject][residual],projection 43,1bd73acf06c4
+w1 label drop2 probes,3868,count,analyses/label_errors.py,label_errors.json probes,-,1bd73acf06c4
+w1 label drop4 n=20 probe t,3,-,analyses/label_errors.py,label_errors.json drop4 lengths[20][probe][t],projection 43,1bd73acf06c4
+w1 label drop4 n=20 probe parity,15,-,analyses/label_errors.py,label_errors.json drop4 lengths[20][probe][parity],projection 43,1bd73acf06c4
+w1 label drop4 n=20 probe residual,0.41831898593005334,bits,analyses/label_errors.py,label_errors.json drop4 lengths[20][probe][residual],projection 43,1bd73acf06c4
+w1 label drop4 n=20 capped t,3,-,analyses/label_errors.py,label_errors.json drop4 lengths[20][capped][t],projection 43,1bd73acf06c4
+w1 label drop4 n=20 capped parity,15,-,analyses/label_errors.py,label_errors.json drop4 lengths[20][capped][parity],projection 43,1bd73acf06c4
+w1 label drop4 n=20 capped residual,0.41831898593005334,bits,analyses/label_errors.py,label_errors.json drop4 lengths[20][capped][residual],projection 43,1bd73acf06c4
+w1 label drop4 n=20 subject t,3,-,analyses/label_errors.py,label_errors.json drop4 lengths[20][subject][t],projection 43,1bd73acf06c4
+w1 label drop4 n=20 subject parity,15,-,analyses/label_errors.py,label_errors.json drop4 lengths[20][subject][parity],projection 43,1bd73acf06c4
+w1 label drop4 n=20 subject residual,0.41831898593005334,bits,analyses/label_errors.py,label_errors.json drop4 lengths[20][subject][residual],projection 43,1bd73acf06c4
+w1 label drop4 probes,3866,count,analyses/label_errors.py,label_errors.json probes,-,1bd73acf06c4
+w1 label drop2_fixedmean n=20 probe t,3,-,analyses/label_errors.py,label_errors.json drop2_fixedmean lengths[20][probe][t],projection 43,1bd73acf06c4
+w1 label drop2_fixedmean n=20 probe parity,15,-,analyses/label_errors.py,label_errors.json drop2_fixedmean lengths[20][probe][parity],projection 43,1bd73acf06c4
+w1 label drop2_fixedmean n=20 probe residual,0.42809396545452394,bits,analyses/label_errors.py,label_errors.json drop2_fixedmean lengths[20][probe][residual],projection 43,1bd73acf06c4
+w1 label drop2_fixedmean n=20 capped t,3,-,analyses/label_errors.py,label_errors.json drop2_fixedmean lengths[20][capped][t],projection 43,1bd73acf06c4
+w1 label drop2_fixedmean n=20 capped parity,15,-,analyses/label_errors.py,label_errors.json drop2_fixedmean lengths[20][capped][parity],projection 43,1bd73acf06c4
+w1 label drop2_fixedmean n=20 capped residual,0.42809396545452394,bits,analyses/label_errors.py,label_errors.json drop2_fixedmean lengths[20][capped][residual],projection 43,1bd73acf06c4
+w1 label drop2_fixedmean n=20 subject t,3,-,analyses/label_errors.py,label_errors.json drop2_fixedmean lengths[20][subject][t],projection 43,1bd73acf06c4
+w1 label drop2_fixedmean n=20 subject parity,15,-,analyses/label_errors.py,label_errors.json drop2_fixedmean lengths[20][subject][parity],projection 43,1bd73acf06c4
+w1 label drop2_fixedmean n=20 subject residual,0.42809396545452394,bits,analyses/label_errors.py,label_errors.json drop2_fixedmean lengths[20][subject][residual],projection 43,1bd73acf06c4
+w1 label drop2_fixedmean probes,3868,count,analyses/label_errors.py,label_errors.json probes,-,1bd73acf06c4
+w1 label drop4_fixedmean n=20 probe t,3,-,analyses/label_errors.py,label_errors.json drop4_fixedmean lengths[20][probe][t],projection 43,1bd73acf06c4
+w1 label drop4_fixedmean n=20 probe parity,15,-,analyses/label_errors.py,label_errors.json drop4_fixedmean lengths[20][probe][parity],projection 43,1bd73acf06c4
+w1 label drop4_fixedmean n=20 probe residual,0.42805863862568394,bits,analyses/label_errors.py,label_errors.json drop4_fixedmean lengths[20][probe][residual],projection 43,1bd73acf06c4
+w1 label drop4_fixedmean n=20 capped t,3,-,analyses/label_errors.py,label_errors.json drop4_fixedmean lengths[20][capped][t],projection 43,1bd73acf06c4
+w1 label drop4_fixedmean n=20 capped parity,15,-,analyses/label_errors.py,label_errors.json drop4_fixedmean lengths[20][capped][parity],projection 43,1bd73acf06c4
+w1 label drop4_fixedmean n=20 capped residual,0.42805863862568394,bits,analyses/label_errors.py,label_errors.json drop4_fixedmean lengths[20][capped][residual],projection 43,1bd73acf06c4
+w1 label drop4_fixedmean n=20 subject t,3,-,analyses/label_errors.py,label_errors.json drop4_fixedmean lengths[20][subject][t],projection 43,1bd73acf06c4
+w1 label drop4_fixedmean n=20 subject parity,15,-,analyses/label_errors.py,label_errors.json drop4_fixedmean lengths[20][subject][parity],projection 43,1bd73acf06c4
+w1 label drop4_fixedmean n=20 subject residual,0.42805863862568394,bits,analyses/label_errors.py,label_errors.json drop4_fixedmean lengths[20][subject][residual],projection 43,1bd73acf06c4
+w1 label drop4_fixedmean probes,3866,count,analyses/label_errors.py,label_errors.json probes,-,1bd73acf06c4
+w1 label drop2 n=15 capped closure_pct,100.0,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 557,1bd73acf06c4
+w1 label drop2 n=20 probe closure_pct,94.89999999999999,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 562,1bd73acf06c4
+w1 label drop2 n=20 capped closure_pct,91.8,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 562,1bd73acf06c4
+w1 label drop4 n=15 capped closure_pct,100.0,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 557,1bd73acf06c4
+w1 label drop4 n=20 probe closure_pct,95.5,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 562,1bd73acf06c4
+w1 label drop4 n=20 capped closure_pct,91.8,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 562,1bd73acf06c4
+w1 label drop2_fixedmean n=15 capped closure_pct,100.0,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 557,1bd73acf06c4
+w1 label drop2_fixedmean n=20 probe closure_pct,95.1,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 562,1bd73acf06c4
+w1 label drop2_fixedmean n=20 capped closure_pct,92.0,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 562,1bd73acf06c4
+w1 label drop2_fixedmean n=20 subject closure_pct,46.2,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 562,1bd73acf06c4
+w1 label drop4_fixedmean n=15 capped closure_pct,100.0,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 557,1bd73acf06c4
+w1 label drop4_fixedmean n=20 probe closure_pct,95.6,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 562,1bd73acf06c4
+w1 label drop4_fixedmean n=20 capped closure_pct,92.0,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 562,1bd73acf06c4
+w1 label drop4_fixedmean n=20 subject closure_pct,49.2,%,analyses/limitations_numbers.py,"1,000 replicates, N_eff per replicate (crosscheck.bootstrap_draws)",projection 43; boot 562,1bd73acf06c4
+w1 rule base longest n positive under every weighting,15,n,analyses/limitations_numbers.py,max n with residual > 0 under all three weightings,projection 43,1bd73acf06c4
+w1 rule base n with the largest all-weighting residual,10,n,analyses/limitations_numbers.py,literal reading 'largest residual': argmax over all-positive n of the minimum residual,projection 43,1bd73acf06c4
+w1 rule base n=15 closure min over weightings,96.1,%,analyses/limitations_numbers.py,min over probe/capped/subject,projection 43; boot 557,1bd73acf06c4
+w1 rule base n=20 closure min over weightings,44.2,%,analyses/limitations_numbers.py,min over probe/capped/subject,projection 43; boot 562,1bd73acf06c4
+w1 rule drop2 longest n positive under every weighting,20,n,analyses/limitations_numbers.py,max n with residual > 0 under all three weightings,projection 43,1bd73acf06c4
+w1 rule drop2 n with the largest all-weighting residual,10,n,analyses/limitations_numbers.py,literal reading 'largest residual': argmax over all-positive n of the minimum residual,projection 43,1bd73acf06c4
+w1 rule drop2 n=15 closure min over weightings,97.0,%,analyses/limitations_numbers.py,min over probe/capped/subject,projection 43; boot 557,1bd73acf06c4
+w1 rule drop2 n=20 closure min over weightings,46.1,%,analyses/limitations_numbers.py,min over probe/capped/subject,projection 43; boot 562,1bd73acf06c4
+w1 rule drop4 longest n positive under every weighting,20,n,analyses/limitations_numbers.py,max n with residual > 0 under all three weightings,projection 43,1bd73acf06c4
+w1 rule drop4 n with the largest all-weighting residual,11,n,analyses/limitations_numbers.py,literal reading 'largest residual': argmax over all-positive n of the minimum residual,projection 43,1bd73acf06c4
+w1 rule drop4 n=15 closure min over weightings,98.0,%,analyses/limitations_numbers.py,min over probe/capped/subject,projection 43; boot 557,1bd73acf06c4
+w1 rule drop4 n=20 closure min over weightings,49.0,%,analyses/limitations_numbers.py,min over probe/capped/subject,projection 43; boot 562,1bd73acf06c4
+w1 rule drop2_fixedmean longest n positive under every weighting,20,n,analyses/limitations_numbers.py,max n with residual > 0 under all three weightings,projection 43,1bd73acf06c4
+w1 rule drop2_fixedmean n with the largest all-weighting residual,10,n,analyses/limitations_numbers.py,literal reading 'largest residual': argmax over all-positive n of the minimum residual,projection 43,1bd73acf06c4
+w1 rule drop2_fixedmean n=15 closure min over weightings,97.0,%,analyses/limitations_numbers.py,min over probe/capped/subject,projection 43; boot 557,1bd73acf06c4
+w1 rule drop2_fixedmean n=20 closure min over weightings,46.2,%,analyses/limitations_numbers.py,min over probe/capped/subject,projection 43; boot 562,1bd73acf06c4
+w1 rule drop4_fixedmean longest n positive under every weighting,20,n,analyses/limitations_numbers.py,max n with residual > 0 under all three weightings,projection 43,1bd73acf06c4
+w1 rule drop4_fixedmean n with the largest all-weighting residual,11,n,analyses/limitations_numbers.py,literal reading 'largest residual': argmax over all-positive n of the minimum residual,projection 43,1bd73acf06c4
+w1 rule drop4_fixedmean n=15 closure min over weightings,98.0,%,analyses/limitations_numbers.py,min over probe/capped/subject,projection 43; boot 557,1bd73acf06c4
+w1 rule drop4_fixedmean n=20 closure min over weightings,49.2,%,analyses/limitations_numbers.py,min over probe/capped/subject,projection 43; boot 562,1bd73acf06c4
+w1 rule stable-closure threshold lower bound (exclusive),49.2,%,analyses/limitations_numbers.py,max over the 5 variants of the n=20 closure (min over weightings); a threshold must exceed it,-,1bd73acf06c4
+w1 rule stable-closure threshold upper bound (inclusive),96.1,%,analyses/limitations_numbers.py,min over the 5 variants of the n=15 closure (min over weightings); a threshold must not exceed it,-,1bd73acf06c4
+"w1 rule stable-closure window, every weighting","[49.2,96.1]","% (lo, hi]",analyses/limitations_numbers.py,"closure = min over the three weightings; a threshold in (lo, hi] picks n=15 in every variant",-,1bd73acf06c4
+"w1 rule stable-closure window, probe-weighted","[95.6,100.0]","% (lo, hi]",analyses/limitations_numbers.py,"closure = probe-weighted (Table 1's column); a threshold in (lo, hi] picks n=15 in every variant",-,1bd73acf06c4
+w1 label confirmed probes,"[""Michael_Schumacher_0008"",""Mahmoud_Abbas_0012""]",list,analyses/limitations_numbers.py,checked by eye: a different person in the image,-,1bd73acf06c4
+w1 label uncertain probes,"[""Naomi_Watts_0022"",""Abdullah_Gul_0016""]",list,analyses/limitations_numbers.py,lowest genuine cosine; identity not settled,-,1bd73acf06c4
+w1 label confirmed count,2,probes,analyses/limitations_numbers.py,len(confirmed),-,1bd73acf06c4
+w1 label uncertain count,2,probes,analyses/limitations_numbers.py,len(uncertain),-,1bd73acf06c4
+w1 label suspect count,4,probes,analyses/limitations_numbers.py,confirmed + uncertain,-,1bd73acf06c4
+w1 label image index Michael_Schumacher,8,LFW file number,analyses/limitations_numbers.py,Michael_Schumacher_0008.jpg,-,1bd73acf06c4
+w1 label image index Mahmoud_Abbas,12,LFW file number,analyses/limitations_numbers.py,Mahmoud_Abbas_0012.jpg,-,1bd73acf06c4
+w1 label image index Naomi_Watts,22,LFW file number,analyses/limitations_numbers.py,Naomi_Watts_0022.jpg,-,1bd73acf06c4
+w1 label image index Abdullah_Gul,16,LFW file number,analyses/limitations_numbers.py,Abdullah_Gul_0016.jpg,-,1bd73acf06c4
+w1 label frr count threshold pct,5,%,analyses/limitations_numbers.py,definition: frr_n_gt_5pct counts subjects with FRR > 5%,-,1bd73acf06c4
+w1 bootstrap seeds,"[550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,574,582,590,598,606]",list,analyses/limitations_numbers.py,every 'boot N' in manifest.csv closure rows (542+n),-,1bd73acf06c4
+w1 FAR seeds,"[350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,374,382,390,398,406]",list,analyses/limitations_numbers.py,every 'far N' in manifest.csv closure rows (342+n),-,1bd73acf06c4

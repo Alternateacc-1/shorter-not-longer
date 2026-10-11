@@ -1,0 +1,323 @@
+{
+ "git": {
+  "commit": "1bd73acf06c49a563b255fb28199a448ec66383d",
+  "branch": "main",
+  "deleted_derived": [],
+  "other_changes": [
+   "?? results/pipeline/step1_embed.json",
+   "?? results/pipeline/step2_sweep.json",
+   "?? results/pipeline/step3_lfw_benchmark.json",
+   "?? results/pipeline/step4_robustness.json"
+  ],
+  "dev": false
+ },
+ "seeds": [
+  43,
+  101,
+  202,
+  303,
+  404
+ ],
+ "lengths": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "rows": {
+  "43/8": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.45805210297676346,
+    "bound_min": -0.027911383751978658,
+    "bound_min_bonferroni": -0.554845470312662
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.45805210297676346,
+    "bound_min": -0.027911383751978658,
+    "bound_min_bonferroni": -0.554845470312662
+   }
+  },
+  "43/9": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.6855677549069243,
+    "bound_min": 0.30170820462791603,
+    "bound_min_bonferroni": -0.2954307309527615
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.6855677549069243,
+    "bound_min": 0.30170820462791603,
+    "bound_min_bonferroni": -0.2954307309527615
+   }
+  },
+  "43/10": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.8610870287031123,
+    "bound_min": 0.4357028926764315,
+    "bound_min_bonferroni": -0.1922983467277386
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.8610870287031123,
+    "bound_min": 0.4357028926764315,
+    "bound_min_bonferroni": -0.1922983467277386
+   }
+  },
+  "43/11": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.9954753424627159,
+    "bound_min": 0.5871778790218736,
+    "bound_min_bonferroni": -0.07746077286531161
+   },
+   "subject": {
+    "parity": 8,
+    "bound_mean": -3.004524657537284,
+    "bound_min": -3.4128221209781264,
+    "bound_min_bonferroni": -4.077460772865312
+   }
+  },
+  "101/8": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.43871507367094953,
+    "bound_min": -0.027911383751978658,
+    "bound_min_bonferroni": -0.554845470312662
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.43871507367094953,
+    "bound_min": -0.027911383751978658,
+    "bound_min_bonferroni": -0.554845470312662
+   }
+  },
+  "101/9": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.67298697534883,
+    "bound_min": 0.30170820462791603,
+    "bound_min_bonferroni": -0.2954307309527615
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.67298697534883,
+    "bound_min": 0.30170820462791603,
+    "bound_min_bonferroni": -0.2954307309527615
+   }
+  },
+  "101/10": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.8473152369601333,
+    "bound_min": 0.4357028926764315,
+    "bound_min_bonferroni": -0.1922983467277386
+   },
+   "subject": {
+    "parity": 8,
+    "bound_mean": -3.1526847630398667,
+    "bound_min": -3.5642971073235685,
+    "bound_min_bonferroni": -4.192298346727739
+   }
+  },
+  "101/11": {
+   "probe": {
+    "parity": 8,
+    "bound_mean": -3.010993750955393,
+    "bound_min": -3.4128221209781264,
+    "bound_min_bonferroni": -4.077460772865312
+   },
+   "subject": {
+    "parity": 8,
+    "bound_mean": -3.010993750955393,
+    "bound_min": -3.4128221209781264,
+    "bound_min_bonferroni": -4.077460772865312
+   }
+  },
+  "202/8": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.44581527514241426,
+    "bound_min": -0.12035027272384635,
+    "bound_min_bonferroni": -0.6289536193236778
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.44581527514241426,
+    "bound_min": -0.12035027272384635,
+    "bound_min_bonferroni": -0.6289536193236778
+   }
+  },
+  "202/9": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.671914152818041,
+    "bound_min": 0.18142086438616278,
+    "bound_min_bonferroni": -0.3891874203688115
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.671914152818041,
+    "bound_min": 0.18142086438616278,
+    "bound_min_bonferroni": -0.3891874203688115
+   }
+  },
+  "202/10": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.8589799454117433,
+    "bound_min": 0.4357028926764315,
+    "bound_min_bonferroni": -0.1922983467277386
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.8589799454117433,
+    "bound_min": 0.4357028926764315,
+    "bound_min_bonferroni": -0.1922983467277386
+   }
+  },
+  "202/11": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.996700745447674,
+    "bound_min": 0.5871778790218736,
+    "bound_min_bonferroni": -0.07746077286531161
+   },
+   "subject": {
+    "parity": 8,
+    "bound_mean": -3.003299254552326,
+    "bound_min": -3.4128221209781264,
+    "bound_min_bonferroni": -4.077460772865312
+   }
+  },
+  "303/8": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.45623762073331964,
+    "bound_min": 0.07219261021016354,
+    "bound_min_bonferroni": -0.47524284399628414
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.45623762073331964,
+    "bound_min": 0.07219261021016354,
+    "bound_min_bonferroni": -0.47524284399628414
+   }
+  },
+  "303/9": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.6740025945939561,
+    "bound_min": 0.18142086438616278,
+    "bound_min_bonferroni": -0.3891874203688115
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.6740025945939561,
+    "bound_min": 0.18142086438616278,
+    "bound_min_bonferroni": -0.3891874203688115
+   }
+  },
+  "303/10": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.8639149340897534,
+    "bound_min": 0.4357028926764315,
+    "bound_min_bonferroni": -0.1922983467277386
+   },
+   "subject": {
+    "parity": 8,
+    "bound_mean": -3.1360850659102466,
+    "bound_min": -3.5642971073235685,
+    "bound_min_bonferroni": -4.192298346727739
+   }
+  },
+  "303/11": {
+   "probe": {
+    "parity": 8,
+    "bound_mean": -3.0065046093927865,
+    "bound_min": -3.2382028207593043,
+    "bound_min_bonferroni": -3.9475187834072907
+   },
+   "subject": {
+    "parity": 8,
+    "bound_mean": -3.0065046093927865,
+    "bound_min": -3.2382028207593043,
+    "bound_min_bonferroni": -3.9475187834072907
+   }
+  },
+  "404/8": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.4396172217592449,
+    "bound_min": -0.027911383751978658,
+    "bound_min_bonferroni": -0.554845470312662
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.4396172217592449,
+    "bound_min": -0.027911383751978658,
+    "bound_min_bonferroni": -0.554845470312662
+   }
+  },
+  "404/9": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.6745931292546681,
+    "bound_min": 0.07219261021016354,
+    "bound_min_bonferroni": -0.47524284399628414
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.6745931292546681,
+    "bound_min": 0.07219261021016354,
+    "bound_min_bonferroni": -0.47524284399628414
+   }
+  },
+  "404/10": {
+   "probe": {
+    "parity": 4,
+    "bound_mean": 0.8552790370260794,
+    "bound_min": 0.4357028926764315,
+    "bound_min_bonferroni": -0.1922983467277386
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.8552790370260794,
+    "bound_min": 0.4357028926764315,
+    "bound_min_bonferroni": -0.1922983467277386
+   }
+  },
+  "404/11": {
+   "probe": {
+    "parity": 8,
+    "bound_mean": -3.015253462956614,
+    "bound_min": -3.5642971073235685,
+    "bound_min_bonferroni": -4.192298346727739
+   },
+   "subject": {
+    "parity": 4,
+    "bound_mean": 0.9847465370433861,
+    "bound_min": 0.4357028926764315,
+    "bound_min_bonferroni": -0.1922983467277386
+   }
+  }
+ },
+ "positive_both_weightings_all_seeds": {
+  "8": true,
+  "9": true,
+  "10": false,
+  "11": false
+ },
+ "longest_positive_both_weightings_all_seeds": 9,
+ "seed43_positive_both_weightings": {
+  "8": true,
+  "9": true,
+  "10": true,
+  "11": false
+ },
+ "wall_seconds": 9.2
+}
