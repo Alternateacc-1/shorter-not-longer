@@ -561,7 +561,7 @@ def verify_full():
     # LFW manifest hash (hash of sorted list of all image paths)
     if LFW_DIR.exists():
         img_paths = sorted([
-            str(p.relative_to(LFW_DIR))
+            str(p.relative_to(LFW_DIR)).replace("\\", "/")
             for p in LFW_DIR.rglob("*")
             if p.suffix.lower() in (".jpg", ".jpeg", ".png")
         ])

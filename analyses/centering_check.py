@@ -23,6 +23,7 @@ models/w600k_r50.onnx):
     python -m analyses.centering_check
 Writes results/centering/centering_check.json (about 15 min on 2 cores).
 """
+import hashlib
 import json
 import random
 
@@ -48,18 +49,31 @@ def least_parity(m, n, failfn):
     return n, bch_parity(m, n), bch_true_t(m, n)
 
 
-def external_mean():
-    cache = OUT / "external_embeddings.npz"
+def external_images():
+    """The 800 outside images: every image of the LFW subjects with 1-5 images,
+    in name order, shuffled with random.Random(7). Names are compared as plain
+    strings so the order (and the draw) is the same on every operating system;
+    sorting Path objects is case-insensitive on Windows only."""
+    others = []
+    for d in sorted((d for d in LFW_DIR.iterdir() if d.is_dir()), key=lambda d: d.name):
+        imgs = sorted((p for p in d.iterdir() if p.suffix.lower() in (".jpg", ".jpeg", ".png")),
+                      key=lambda p: p.name)
+        if 0 < len(imgs) < 6:
+            others += imgs
+    random.Random(EXTERNAL_SEED).shuffle(others)
+    return others[:N_EXTERNAL]
+
+
+def external_list_hash(images):
+    """SHA-256 of the drawn images as subject/file names, one per line."""
+    return hashlib.sha256("\n".join(f"{p.parent.name}/{p.name}" for p in images).encode("utf-8")).hexdigest()
+
+
+def external_mean(images):
+    cache = OUT / f"external_embeddings_{external_list_hash(images)[:12]}.npz"
     if not cache.exists():
         from fuzzycommit.embedding import extract_embeddings
-        others = []
-        for d in sorted(LFW_DIR.iterdir()):
-            if d.is_dir():
-                imgs = sorted(p for p in d.iterdir() if p.suffix.lower() in (".jpg", ".jpeg", ".png"))
-                if 0 < len(imgs) < 6:
-                    others += imgs
-        random.Random(EXTERNAL_SEED).shuffle(others)
-        extract_embeddings({"external": others[:N_EXTERNAL]}, cache_path=cache)
+        extract_embeddings({"external": images}, cache_path=cache)
     ext = np.load(cache, allow_pickle=True)["embeddings"].item()["external"]
     assert len(ext) == N_EXTERNAL
     return ext.mean(axis=0)
@@ -67,6 +81,7 @@ def external_mean():
 
 def main():
     st = require_committed()
+    ext_imgs = external_images()
     emb = np.load(EMB, allow_pickle=True)["embeddings"].item()
     emb = {k: v for k, v in emb.items() if len(v) >= 6}
     subs = sorted(emb)
@@ -74,10 +89,10 @@ def main():
     assert NS == 311
     means = {"P_corpus_mean": np.concatenate([emb[s] for s in subs]).mean(axis=0),
              "E_enrollment_mean": np.concatenate([emb[s][:ENROLLMENT_SIZE] for s in subs]).mean(axis=0),
-             "X_external_mean": external_mean()}
+             "X_external_mean": external_mean(ext_imgs)}
     W = get_W()
     res = {"git": st, "lengths": LENGTHS, "external_images": N_EXTERNAL, "external_seed": EXTERNAL_SEED,
-           "variants": {}}
+           "external_list_sha256": external_list_hash(ext_imgs), "variants": {}}
     for name, mu in means.items():
         cen = {s: emb[s] - mu for s in subs}
         rows = {}
